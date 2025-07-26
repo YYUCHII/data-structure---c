@@ -1,0 +1,2 @@
+C:/Users/25804/Desktop/data structure/data-structure---c/build/CMakeFiles/edit_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/CMakeFiles/rebuild_cache.dir
