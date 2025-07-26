@@ -1,0 +1,14 @@
+[
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable.c",
+  "output": "01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable_main.c",
+  "output": "01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable_main.c.obj"
+}
+]

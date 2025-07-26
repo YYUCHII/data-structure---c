@@ -64,7 +64,106 @@ build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/25804/Desktop/data structure/data-structure---c/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 01_SequenceTable
+
+
+#############################################
+# Order-only phony target for 01_SequenceTable
+
+build cmake_object_order_depends_target_01_SequenceTable: phony || .
+
+build 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj: C_COMPILER__01_SequenceTable_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/01_SequenceTable/SequenceTable.c || cmake_object_order_depends_target_01_SequenceTable
+  DEP_FILE = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable\SequenceTable.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable
+
+build 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj: C_COMPILER__01_SequenceTable_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/01_SequenceTable/SequenceTable_main.c || cmake_object_order_depends_target_01_SequenceTable
+  DEP_FILE = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable\SequenceTable_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 01_SequenceTable
+
+
+#############################################
+# Link the executable 01_LinearStructure\01_SequenceTable.exe
+
+build 01_LinearStructure/01_SequenceTable.exe: C_EXECUTABLE_LINKER__01_SequenceTable_Debug 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_LinearStructure\01_SequenceTable.exe
+  TARGET_IMPLIB = 01_LinearStructure\lib01_SequenceTable.dll.a
+  TARGET_PDB = 01_SequenceTable.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 01_LinearStructure/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 01_LinearStructure/edit_cache: phony 01_LinearStructure/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 01_LinearStructure/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 01_LinearStructure/rebuild_cache: phony 01_LinearStructure/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/25804/Desktop/data structure/data-structure---c/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for edit_cache
+
+build 02_TreeStructrue/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\02_TreeStructrue" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 02_TreeStructrue/edit_cache: phony 02_TreeStructrue/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 02_TreeStructrue/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\02_TreeStructrue" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 02_TreeStructrue/rebuild_cache: phony 02_TreeStructrue/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
+
+build 01_SequenceTable: phony 01_LinearStructure/01_SequenceTable.exe
+
+build 01_SequenceTable.exe: phony 01_LinearStructure/01_SequenceTable.exe
 
 # =============================================================================
 # Folder targets.
@@ -74,7 +173,21 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build
 
-build all: phony
+build all: phony 01_LinearStructure/all 02_TreeStructrue/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure
+
+build 01_LinearStructure/all: phony 01_LinearStructure/01_SequenceTable.exe
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue
+
+build 02_TreeStructrue/all: phony
 
 # =============================================================================
 # Built-in targets
@@ -83,14 +196,14 @@ build all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCCompilerABI.c D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeNinjaFindMake.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystem.cmake.in D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCCompiler.cmake.in D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCCompilerABI.c D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXCompiler.cmake.in D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXCompilerABI.cpp D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCompilerIdDetection.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCXXCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompileFeatures.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineCompilerId.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineRCCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeDetermineSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeFindBinUtils.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeNinjaFindMake.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeParseImplicitIncludeInfo.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeParseImplicitLinkInfo.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeParseLibraryArchitecture.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCCompiler.cmake.in D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystem.cmake.in D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeTestCCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeTestCXXCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeTestCompilerCommon.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeTestRCCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/ADSP-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/ARMCC-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/ARMClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/AppleClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Borland-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Bruce-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Clang-DetermineCompilerInternal.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Compaq-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Cray-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CrayClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Embarcadero-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Fujitsu-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GHS-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-FindBinUtils.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/HP-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/HP-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IAR-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Intel-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/LCC-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/MSVC-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/NVHPC-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/NVIDIA-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/OrangeC-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/PGI-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/PathScale-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/SCO-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/SDCC-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/SunPro-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/TI-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/TIClang-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Tasking-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/Watcom-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/XL-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/XL-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/XLClang-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/zOS-C-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Internal/CMakeDetermineLinkerId.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Internal/FeatureTesting.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Determine-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

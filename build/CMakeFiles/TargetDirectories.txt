@@ -1,2 +1,7 @@
 C:/Users/25804/Desktop/data structure/data-structure---c/build/CMakeFiles/edit_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/CMakeFiles/rebuild_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/CMakeFiles/01_SequenceTable.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/CMakeFiles/edit_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/CMakeFiles/rebuild_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/edit_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/rebuild_cache.dir

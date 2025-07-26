@@ -1,0 +1,89 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "01_LinearStructure",
+					"jsonFile" : "directory-01_LinearStructure-Debug-a5302b1e39786daccc01.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "01_LinearStructure",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "02_TreeStructrue",
+					"jsonFile" : "directory-02_TreeStructrue-Debug-3d2f09e237eadab7579c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "02_TreeStructrue"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2
+					],
+					"name" : "DSLearnC",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "01_SequenceTable::@3c65a7d8cde272763d1e",
+					"jsonFile" : "target-01_SequenceTable-Debug-162689c3025bf51407b7.json",
+					"name" : "01_SequenceTable",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+		"source" : "C:/Users/25804/Desktop/data structure/data-structure---c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
