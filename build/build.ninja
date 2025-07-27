@@ -69,43 +69,43 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target SequenceTable
+# Object build statements for EXECUTABLE target 01_SequenceTable
 
 
 #############################################
-# Order-only phony target for SequenceTable
+# Order-only phony target for 01_SequenceTable
 
-build cmake_object_order_depends_target_SequenceTable: phony || .
+build cmake_object_order_depends_target_01_SequenceTable: phony || .
 
-build 01_LinearStructure/CMakeFiles/SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj: C_COMPILER__SequenceTable_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/01_SequenceTable/SequenceTable.c || cmake_object_order_depends_target_SequenceTable
-  DEP_FILE = 01_LinearStructure\CMakeFiles\SequenceTable.dir\01_SequenceTable\SequenceTable.c.obj.d
+build 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj: C_COMPILER__01_SequenceTable_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/01_SequenceTable/SequenceTable.c || cmake_object_order_depends_target_01_SequenceTable
+  DEP_FILE = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable\SequenceTable.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\CMakeFiles\SequenceTable.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\CMakeFiles\SequenceTable.dir\01_SequenceTable
+  OBJECT_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable
 
-build 01_LinearStructure/CMakeFiles/SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj: C_COMPILER__SequenceTable_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/01_SequenceTable/SequenceTable_main.c || cmake_object_order_depends_target_SequenceTable
-  DEP_FILE = 01_LinearStructure\CMakeFiles\SequenceTable.dir\01_SequenceTable\SequenceTable_main.c.obj.d
+build 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj: C_COMPILER__01_SequenceTable_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/01_SequenceTable/SequenceTable_main.c || cmake_object_order_depends_target_01_SequenceTable
+  DEP_FILE = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable\SequenceTable_main.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\CMakeFiles\SequenceTable.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\CMakeFiles\SequenceTable.dir\01_SequenceTable
+  OBJECT_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target SequenceTable
+# Link build statements for EXECUTABLE target 01_SequenceTable
 
 
 #############################################
-# Link the executable 01_LinearStructure\SequenceTable.exe
+# Link the executable 01_LinearStructure\01_SequenceTable.exe
 
-build 01_LinearStructure/SequenceTable.exe: C_EXECUTABLE_LINKER__SequenceTable_Debug 01_LinearStructure/CMakeFiles/SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj 01_LinearStructure/CMakeFiles/SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj
+build 01_LinearStructure/01_SequenceTable.exe: C_EXECUTABLE_LINKER__01_SequenceTable_Debug 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\CMakeFiles\SequenceTable.dir
+  OBJECT_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\SequenceTable.exe
-  TARGET_IMPLIB = 01_LinearStructure\libSequenceTable.dll.a
-  TARGET_PDB = SequenceTable.exe.dbg
+  TARGET_FILE = 01_LinearStructure\01_SequenceTable.exe
+  TARGET_IMPLIB = 01_LinearStructure\lib01_SequenceTable.dll.a
+  TARGET_PDB = 01_SequenceTable.exe.dbg
 
 
 #############################################
@@ -136,43 +136,82 @@ build 01_LinearStructure/rebuild_cache: phony 01_LinearStructure/CMakeFiles/rebu
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target SinglyLinkedList
+# Object build statements for EXECUTABLE target 02_SinglyLinkedList
 
 
 #############################################
-# Order-only phony target for SinglyLinkedList
+# Order-only phony target for 02_SinglyLinkedList
 
-build cmake_object_order_depends_target_SinglyLinkedList: phony || .
+build cmake_object_order_depends_target_02_SinglyLinkedList: phony || .
 
-build 01_LinearStructure/02_LinkedList/CMakeFiles/SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList_main.c.obj: C_COMPILER__SinglyLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/01_SinglyLinkedList/SinglyLinkedList_main.c || cmake_object_order_depends_target_SinglyLinkedList
-  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\SinglyLinkedList.dir\01_SinglyLinkedList\SinglyLinkedList_main.c.obj.d
+build 01_LinearStructure/02_LinkedList/CMakeFiles/02_SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList_main.c.obj: C_COMPILER__02_SinglyLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/01_SinglyLinkedList/SinglyLinkedList_main.c || cmake_object_order_depends_target_02_SinglyLinkedList
+  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir\01_SinglyLinkedList\SinglyLinkedList_main.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\SinglyLinkedList.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\SinglyLinkedList.dir\01_SinglyLinkedList
+  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir\01_SinglyLinkedList
 
-build 01_LinearStructure/02_LinkedList/CMakeFiles/SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList.c.obj: C_COMPILER__SinglyLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/01_SinglyLinkedList/SinglyLinkedList.c || cmake_object_order_depends_target_SinglyLinkedList
-  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\SinglyLinkedList.dir\01_SinglyLinkedList\SinglyLinkedList.c.obj.d
+build 01_LinearStructure/02_LinkedList/CMakeFiles/02_SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList.c.obj: C_COMPILER__02_SinglyLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/01_SinglyLinkedList/SinglyLinkedList.c || cmake_object_order_depends_target_02_SinglyLinkedList
+  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir\01_SinglyLinkedList\SinglyLinkedList.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\SinglyLinkedList.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\SinglyLinkedList.dir\01_SinglyLinkedList
+  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir\01_SinglyLinkedList
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target SinglyLinkedList
+# Link build statements for EXECUTABLE target 02_SinglyLinkedList
 
 
 #############################################
-# Link the executable 01_LinearStructure\02_LinkedList\SinglyLinkedList.exe
+# Link the executable 01_LinearStructure\02_LinkedList\02_SinglyLinkedList.exe
 
-build 01_LinearStructure/02_LinkedList/SinglyLinkedList.exe: C_EXECUTABLE_LINKER__SinglyLinkedList_Debug 01_LinearStructure/02_LinkedList/CMakeFiles/SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList_main.c.obj 01_LinearStructure/02_LinkedList/CMakeFiles/SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList.c.obj
+build 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe: C_EXECUTABLE_LINKER__02_SinglyLinkedList_Debug 01_LinearStructure/02_LinkedList/CMakeFiles/02_SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList_main.c.obj 01_LinearStructure/02_LinkedList/CMakeFiles/02_SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\SinglyLinkedList.dir
+  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\02_LinkedList\SinglyLinkedList.exe
-  TARGET_IMPLIB = 01_LinearStructure\02_LinkedList\libSinglyLinkedList.dll.a
-  TARGET_PDB = SinglyLinkedList.exe.dbg
+  TARGET_FILE = 01_LinearStructure\02_LinkedList\02_SinglyLinkedList.exe
+  TARGET_IMPLIB = 01_LinearStructure\02_LinkedList\lib02_SinglyLinkedList.dll.a
+  TARGET_PDB = 02_SinglyLinkedList.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_CircularLinkedList
+
+
+#############################################
+# Order-only phony target for 03_CircularLinkedList
+
+build cmake_object_order_depends_target_03_CircularLinkedList: phony || .
+
+build 01_LinearStructure/02_LinkedList/CMakeFiles/03_CircularLinkedList.dir/02_CircularLinkedList/CircularLinkedList_main.c.obj: C_COMPILER__03_CircularLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/02_CircularLinkedList/CircularLinkedList_main.c || cmake_object_order_depends_target_03_CircularLinkedList
+  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir\02_CircularLinkedList\CircularLinkedList_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir\02_CircularLinkedList
+
+build 01_LinearStructure/02_LinkedList/CMakeFiles/03_CircularLinkedList.dir/02_CircularLinkedList/CircularLinkedList.c.obj: C_COMPILER__03_CircularLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/02_CircularLinkedList/CircularLinkedList.c || cmake_object_order_depends_target_03_CircularLinkedList
+  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir\02_CircularLinkedList\CircularLinkedList.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir\02_CircularLinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_CircularLinkedList
+
+
+#############################################
+# Link the executable 01_LinearStructure\02_LinkedList\03_CircularLinkedList.exe
+
+build 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe: C_EXECUTABLE_LINKER__03_CircularLinkedList_Debug 01_LinearStructure/02_LinkedList/CMakeFiles/03_CircularLinkedList.dir/02_CircularLinkedList/CircularLinkedList_main.c.obj 01_LinearStructure/02_LinkedList/CMakeFiles/03_CircularLinkedList.dir/02_CircularLinkedList/CircularLinkedList.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_LinearStructure\02_LinkedList\03_CircularLinkedList.exe
+  TARGET_IMPLIB = 01_LinearStructure\02_LinkedList\lib03_CircularLinkedList.dll.a
+  TARGET_PDB = 03_CircularLinkedList.exe.dbg
 
 
 #############################################
@@ -228,13 +267,17 @@ build 02_TreeStructrue/rebuild_cache: phony 02_TreeStructrue/CMakeFiles/rebuild_
 # =============================================================================
 # Target aliases.
 
-build SequenceTable: phony 01_LinearStructure/SequenceTable.exe
+build 01_SequenceTable: phony 01_LinearStructure/01_SequenceTable.exe
 
-build SequenceTable.exe: phony 01_LinearStructure/SequenceTable.exe
+build 01_SequenceTable.exe: phony 01_LinearStructure/01_SequenceTable.exe
 
-build SinglyLinkedList: phony 01_LinearStructure/02_LinkedList/SinglyLinkedList.exe
+build 02_SinglyLinkedList: phony 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe
 
-build SinglyLinkedList.exe: phony 01_LinearStructure/02_LinkedList/SinglyLinkedList.exe
+build 02_SinglyLinkedList.exe: phony 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe
+
+build 03_CircularLinkedList: phony 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe
+
+build 03_CircularLinkedList.exe: phony 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe
 
 # =============================================================================
 # Folder targets.
@@ -251,14 +294,14 @@ build all: phony 01_LinearStructure/all 02_TreeStructrue/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure
 
-build 01_LinearStructure/all: phony 01_LinearStructure/SequenceTable.exe 01_LinearStructure/02_LinkedList/all
+build 01_LinearStructure/all: phony 01_LinearStructure/01_SequenceTable.exe 01_LinearStructure/02_LinkedList/all
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/02_LinkedList
 
-build 01_LinearStructure/02_LinkedList/all: phony 01_LinearStructure/02_LinkedList/SinglyLinkedList.exe
+build 01_LinearStructure/02_LinkedList/all: phony 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe
 
 # =============================================================================
 

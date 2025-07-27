@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "01_LinearStructure/SequenceTable.exe"
+			"path" : "01_LinearStructure/01_SequenceTable.exe"
 		},
 		{
-			"path" : "01_LinearStructure/SequenceTable.pdb"
+			"path" : "01_LinearStructure/01_SequenceTable.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -49,7 +49,7 @@
 			]
 		}
 	],
-	"id" : "SequenceTable::@3c65a7d8cde272763d1e",
+	"id" : "01_SequenceTable::@3c65a7d8cde272763d1e",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "SequenceTable",
-	"nameOnDisk" : "SequenceTable.exe",
+	"name" : "01_SequenceTable",
+	"nameOnDisk" : "01_SequenceTable.exe",
 	"paths" : 
 	{
 		"build" : "01_LinearStructure",

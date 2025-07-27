@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "01_LinearStructure/02_LinkedList/SinglyLinkedList.exe"
+			"path" : "01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe"
 		},
 		{
-			"path" : "01_LinearStructure/02_LinkedList/SinglyLinkedList.pdb"
+			"path" : "01_LinearStructure/02_LinkedList/02_SinglyLinkedList.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -49,7 +49,7 @@
 			]
 		}
 	],
-	"id" : "SinglyLinkedList::@6f3604b8634aa00f8e10",
+	"id" : "02_SinglyLinkedList::@6f3604b8634aa00f8e10",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "SinglyLinkedList",
-	"nameOnDisk" : "SinglyLinkedList.exe",
+	"name" : "02_SinglyLinkedList",
+	"nameOnDisk" : "02_SinglyLinkedList.exe",
 	"paths" : 
 	{
 		"build" : "01_LinearStructure/02_LinkedList",

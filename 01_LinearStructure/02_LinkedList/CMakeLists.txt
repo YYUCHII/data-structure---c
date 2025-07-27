@@ -1,2 +1,5 @@
-add_executable(SinglyLinkedList 01_SinglyLinkedList/SinglyLinkedList_main.c 01_SinglyLinkedList/SinglyLinkedList.c 
+add_executable(02_SinglyLinkedList 01_SinglyLinkedList/SinglyLinkedList_main.c 01_SinglyLinkedList/SinglyLinkedList.c 
 				01_SinglyLinkedList/SinglyLinkedList.h)
+
+add_executable(03_CircularLinkedList 02_CircularLinkedList/CircularLinkedList_main.c 02_CircularLinkedList/CircularLinkedList.c 02_CircularLinkedList/CircularLinkedList.h)
+				
