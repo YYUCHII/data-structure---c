@@ -2,4 +2,7 @@ add_executable(02_SinglyLinkedList 01_SinglyLinkedList/SinglyLinkedList_main.c 0
 				01_SinglyLinkedList/SinglyLinkedList.h)
 
 add_executable(03_CircularLinkedList 02_CircularLinkedList/CircularLinkedList_main.c 02_CircularLinkedList/CircularLinkedList.c 02_CircularLinkedList/CircularLinkedList.h)
+
+add_executable(04_DoubleCircularLinkedList 03_DoubleCircularLinkedList/DoubleCircularLinkedList_main.c 03_DoubleCircularLinkedList/DoubleCircularLinkedList.c
+03_DoubleCircularLinkedList/DoubleCircularLinkedList.h)
 				

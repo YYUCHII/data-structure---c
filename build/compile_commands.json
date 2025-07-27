@@ -34,5 +34,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\02_LinkedList\\CMakeFiles\\03_CircularLinkedList.dir\\02_CircularLinkedList\\CircularLinkedList.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\02_CircularLinkedList\\CircularLinkedList.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\02_CircularLinkedList\\CircularLinkedList.c",
   "output": "01_LinearStructure\\02_LinkedList\\CMakeFiles\\03_CircularLinkedList.dir\\02_CircularLinkedList\\CircularLinkedList.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\02_LinkedList\\CMakeFiles\\04_DoubleCircularLinkedList.dir\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList_main.c",
+  "output": "01_LinearStructure\\02_LinkedList\\CMakeFiles\\04_DoubleCircularLinkedList.dir\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\02_LinkedList\\CMakeFiles\\04_DoubleCircularLinkedList.dir\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList.c",
+  "output": "01_LinearStructure\\02_LinkedList\\CMakeFiles\\04_DoubleCircularLinkedList.dir\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList.c.obj"
 }
 ]

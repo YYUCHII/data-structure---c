@@ -213,6 +213,45 @@ build 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe: C_EXECUTABLE_L
   TARGET_IMPLIB = 01_LinearStructure\02_LinkedList\lib03_CircularLinkedList.dll.a
   TARGET_PDB = 03_CircularLinkedList.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 04_DoubleCircularLinkedList
+
+
+#############################################
+# Order-only phony target for 04_DoubleCircularLinkedList
+
+build cmake_object_order_depends_target_04_DoubleCircularLinkedList: phony || .
+
+build 01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir/03_DoubleCircularLinkedList/DoubleCircularLinkedList_main.c.obj: C_COMPILER__04_DoubleCircularLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/03_DoubleCircularLinkedList/DoubleCircularLinkedList_main.c || cmake_object_order_depends_target_04_DoubleCircularLinkedList
+  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir\03_DoubleCircularLinkedList\DoubleCircularLinkedList_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir\03_DoubleCircularLinkedList
+
+build 01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir/03_DoubleCircularLinkedList/DoubleCircularLinkedList.c.obj: C_COMPILER__04_DoubleCircularLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/03_DoubleCircularLinkedList/DoubleCircularLinkedList.c || cmake_object_order_depends_target_04_DoubleCircularLinkedList
+  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir\03_DoubleCircularLinkedList\DoubleCircularLinkedList.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir\03_DoubleCircularLinkedList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 04_DoubleCircularLinkedList
+
+
+#############################################
+# Link the executable 01_LinearStructure\02_LinkedList\04_DoubleCircularLinkedList.exe
+
+build 01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe: C_EXECUTABLE_LINKER__04_DoubleCircularLinkedList_Debug 01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir/03_DoubleCircularLinkedList/DoubleCircularLinkedList_main.c.obj 01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir/03_DoubleCircularLinkedList/DoubleCircularLinkedList.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_LinearStructure\02_LinkedList\04_DoubleCircularLinkedList.exe
+  TARGET_IMPLIB = 01_LinearStructure\02_LinkedList\lib04_DoubleCircularLinkedList.dll.a
+  TARGET_PDB = 04_DoubleCircularLinkedList.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -279,6 +318,10 @@ build 03_CircularLinkedList: phony 01_LinearStructure/02_LinkedList/03_CircularL
 
 build 03_CircularLinkedList.exe: phony 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe
 
+build 04_DoubleCircularLinkedList: phony 01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe
+
+build 04_DoubleCircularLinkedList.exe: phony 01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -301,7 +344,7 @@ build 01_LinearStructure/all: phony 01_LinearStructure/01_SequenceTable.exe 01_L
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/02_LinkedList
 
-build 01_LinearStructure/02_LinkedList/all: phony 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe
+build 01_LinearStructure/02_LinkedList/all: phony 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe 01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe
 
 # =============================================================================
 

@@ -51,7 +51,8 @@
 					"targetIndexes" : 
 					[
 						1,
-						2
+						2,
+						3
 					]
 				},
 				{
@@ -82,7 +83,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -107,6 +109,13 @@
 					"id" : "03_CircularLinkedList::@6f3604b8634aa00f8e10",
 					"jsonFile" : "target-03_CircularLinkedList-Debug-53640bb5023ccc42da13.json",
 					"name" : "03_CircularLinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "04_DoubleCircularLinkedList::@6f3604b8634aa00f8e10",
+					"jsonFile" : "target-04_DoubleCircularLinkedList-Debug-f4547c894098c963b2b3.json",
+					"name" : "04_DoubleCircularLinkedList",
 					"projectIndex" : 0
 				}
 			]
