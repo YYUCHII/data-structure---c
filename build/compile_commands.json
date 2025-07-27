@@ -10,5 +10,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable_main.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable_main.c",
   "output": "01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\02_LinkedList.dir\\02_LinkedList\\LinkedList.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\LinkedList.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\LinkedList.c",
+  "output": "01_LinearStructure\\CMakeFiles\\02_LinkedList.dir\\02_LinkedList\\LinkedList.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\02_LinkedList.dir\\02_LinkedList\\LinkedList_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\LinkedList_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\LinkedList_main.c",
+  "output": "01_LinearStructure\\CMakeFiles\\02_LinkedList.dir\\02_LinkedList\\LinkedList_main.c.obj"
 }
 ]

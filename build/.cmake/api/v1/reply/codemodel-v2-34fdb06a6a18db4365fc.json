@@ -31,7 +31,8 @@
 					"source" : "01_LinearStructure",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				},
 				{
@@ -59,7 +60,8 @@
 					"name" : "DSLearnC",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -70,6 +72,13 @@
 					"id" : "01_SequenceTable::@3c65a7d8cde272763d1e",
 					"jsonFile" : "target-01_SequenceTable-Debug-162689c3025bf51407b7.json",
 					"name" : "01_SequenceTable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "02_LinkedList::@3c65a7d8cde272763d1e",
+					"jsonFile" : "target-02_LinkedList-Debug-60a84b4b52c4812687be.json",
+					"name" : "02_LinkedList",
 					"projectIndex" : 0
 				}
 			]
