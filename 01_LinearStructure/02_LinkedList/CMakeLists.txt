@@ -1,0 +1,2 @@
+add_executable(SinglyLinkedList 01_SinglyLinkedList/SinglyLinkedList_main.c 01_SinglyLinkedList/SinglyLinkedList.c 
+				01_SinglyLinkedList/SinglyLinkedList.h)

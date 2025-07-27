@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						2
+						3
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -21,6 +21,10 @@
 				},
 				{
 					"build" : "01_LinearStructure",
+					"childIndexes" : 
+					[
+						2
+					],
 					"jsonFile" : "directory-01_LinearStructure-Debug-a5302b1e39786daccc01.json",
 					"minimumCMakeVersion" : 
 					{
@@ -31,9 +35,22 @@
 					"source" : "01_LinearStructure",
 					"targetIndexes" : 
 					[
-						0,
-						1,
-						2
+						0
+					]
+				},
+				{
+					"build" : "01_LinearStructure/02_LinkedList",
+					"jsonFile" : "directory-01_LinearStructure.02_LinkedList-Debug-fb76a9cc461bf2d60b0b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "01_LinearStructure/02_LinkedList",
+					"targetIndexes" : 
+					[
+						1
 					]
 				},
 				{
@@ -56,14 +73,14 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					],
 					"name" : "DSLearnC",
 					"targetIndexes" : 
 					[
 						0,
-						1,
-						2
+						1
 					]
 				}
 			],
@@ -71,23 +88,16 @@
 			[
 				{
 					"directoryIndex" : 1,
-					"id" : "01_SequenceTable::@3c65a7d8cde272763d1e",
-					"jsonFile" : "target-01_SequenceTable-Debug-162689c3025bf51407b7.json",
-					"name" : "01_SequenceTable",
+					"id" : "SequenceTable::@3c65a7d8cde272763d1e",
+					"jsonFile" : "target-SequenceTable-Debug-4f888b4b2587381dcc87.json",
+					"name" : "SequenceTable",
 					"projectIndex" : 0
 				},
 				{
-					"directoryIndex" : 1,
-					"id" : "02_LinkedList::@3c65a7d8cde272763d1e",
-					"jsonFile" : "target-02_LinkedList-Debug-60a84b4b52c4812687be.json",
-					"name" : "02_LinkedList",
-					"projectIndex" : 0
-				},
-				{
-					"directoryIndex" : 1,
-					"id" : "03_LoopList::@3c65a7d8cde272763d1e",
-					"jsonFile" : "target-03_LoopList-Debug-f79b6c9d528d40c5ca8e.json",
-					"name" : "03_LoopList",
+					"directoryIndex" : 2,
+					"id" : "SinglyLinkedList::@6f3604b8634aa00f8e10",
+					"jsonFile" : "target-SinglyLinkedList-Debug-02a7c0ac7a63bbaf5ad5.json",
+					"name" : "SinglyLinkedList",
 					"projectIndex" : 0
 				}
 			]

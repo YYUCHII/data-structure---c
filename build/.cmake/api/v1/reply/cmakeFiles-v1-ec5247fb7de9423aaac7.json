@@ -154,6 +154,9 @@
 			"path" : "01_LinearStructure/CMakeLists.txt"
 		},
 		{
+			"path" : "01_LinearStructure/02_LinkedList/CMakeLists.txt"
+		},
+		{
 			"path" : "02_TreeStructrue/CMakeLists.txt"
 		}
 	],
