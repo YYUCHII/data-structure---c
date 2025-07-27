@@ -22,5 +22,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\02_LinkedList.dir\\02_LinkedList\\LinkedList_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\LinkedList_main.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\LinkedList_main.c",
   "output": "01_LinearStructure\\CMakeFiles\\02_LinkedList.dir\\02_LinkedList\\LinkedList_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\03_LoopList.dir\\03_LoopList\\LoopList_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_LoopList\\LoopList_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_LoopList\\LoopList_main.c",
+  "output": "01_LinearStructure\\CMakeFiles\\03_LoopList.dir\\03_LoopList\\LoopList_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\03_LoopList.dir\\03_LoopList\\LoopList.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_LoopList\\LoopList.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_LoopList\\LoopList.c",
+  "output": "01_LinearStructure\\CMakeFiles\\03_LoopList.dir\\03_LoopList\\LoopList.c.obj"
 }
 ]

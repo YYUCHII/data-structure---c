@@ -32,7 +32,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				},
 				{
@@ -61,7 +62,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -79,6 +81,13 @@
 					"id" : "02_LinkedList::@3c65a7d8cde272763d1e",
 					"jsonFile" : "target-02_LinkedList-Debug-60a84b4b52c4812687be.json",
 					"name" : "02_LinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "03_LoopList::@3c65a7d8cde272763d1e",
+					"jsonFile" : "target-03_LoopList-Debug-f79b6c9d528d40c5ca8e.json",
+					"name" : "03_LoopList",
 					"projectIndex" : 0
 				}
 			]

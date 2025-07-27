@@ -2,16 +2,6 @@
 16	83	7752384563637731	01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj	27a7fbd352642996
 1	96	7752383284360052	01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj	e02df5bdf0df6b59
 83	169	7752384564316646	01_LinearStructure/01_SequenceTable.exe	6c0932aa50fc681e
-4	339	7752977295423702	01_LinearStructure/CMakeFiles/02_LinkedList.dir/02_LinkedList/LinkedList_main.c.obj	582591c47d747f25
 1	339	7752977295392287	01_LinearStructure/CMakeFiles/02_LinkedList.dir/02_LinkedList/LinkedList.c.obj	2eabd858f3cad014
-340	744	7752977298777839	01_LinearStructure/02_LinkedList.exe	75b87e8760603b71
-17	82	7752978136550488	01_LinearStructure/CMakeFiles/02_LinkedList.dir/02_LinkedList/LinkedList_main.c.obj	582591c47d747f25
-83	165	7752978137204577	01_LinearStructure/02_LinkedList.exe	75b87e8760603b71
-15	82	7752978347664497	01_LinearStructure/CMakeFiles/02_LinkedList.dir/02_LinkedList/LinkedList_main.c.obj	582591c47d747f25
-82	166	7752978348340391	01_LinearStructure/02_LinkedList.exe	75b87e8760603b71
-19	84	7752978528915320	01_LinearStructure/CMakeFiles/02_LinkedList.dir/02_LinkedList/LinkedList_main.c.obj	582591c47d747f25
-84	167	7752978529574282	01_LinearStructure/02_LinkedList.exe	75b87e8760603b71
-15	79	7752978836252754	01_LinearStructure/CMakeFiles/02_LinkedList.dir/02_LinkedList/LinkedList_main.c.obj	582591c47d747f25
-80	163	7752978836904841	01_LinearStructure/02_LinkedList.exe	75b87e8760603b71
 15	90	7752979021661973	01_LinearStructure/CMakeFiles/02_LinkedList.dir/02_LinkedList/LinkedList_main.c.obj	582591c47d747f25
 90	173	7752979022413407	01_LinearStructure/02_LinkedList.exe	75b87e8760603b71
