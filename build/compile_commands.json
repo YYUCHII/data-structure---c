@@ -82,5 +82,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\04_Queue\\CMakeFiles\\07_SequenceQueue.dir\\01_SequenceQueue\\SequenceQueue.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\01_SequenceQueue\\SequenceQueue.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\01_SequenceQueue\\SequenceQueue.c",
   "output": "01_LinearStructure\\04_Queue\\CMakeFiles\\07_SequenceQueue.dir\\01_SequenceQueue\\SequenceQueue.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\04_Queue\\CMakeFiles\\08_LinkedQueue.dir\\02_LinkedQueue\\LinkedQueue_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\02_LinkedQueue\\LinkedQueue_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\02_LinkedQueue\\LinkedQueue_main.c",
+  "output": "01_LinearStructure\\04_Queue\\CMakeFiles\\08_LinkedQueue.dir\\02_LinkedQueue\\LinkedQueue_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\04_Queue\\CMakeFiles\\08_LinkedQueue.dir\\02_LinkedQueue\\LinkedQueue.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\02_LinkedQueue\\LinkedQueue.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\02_LinkedQueue\\LinkedQueue.c",
+  "output": "01_LinearStructure\\04_Queue\\CMakeFiles\\08_LinkedQueue.dir\\02_LinkedQueue\\LinkedQueue.c.obj"
 }
 ]

@@ -85,7 +85,8 @@
 					"source" : "01_LinearStructure/04_Queue",
 					"targetIndexes" : 
 					[
-						6
+						6,
+						7
 					]
 				},
 				{
@@ -122,7 +123,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						7
 					]
 				}
 			],
@@ -175,6 +177,13 @@
 					"id" : "07_SequenceQueue::@146a796b6711050da67a",
 					"jsonFile" : "target-07_SequenceQueue-Debug-14dc2d79238903f0ed10.json",
 					"name" : "07_SequenceQueue",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "08_LinkedQueue::@146a796b6711050da67a",
+					"jsonFile" : "target-08_LinkedQueue-Debug-804354fec7fda1293396.json",
+					"name" : "08_LinkedQueue",
 					"projectIndex" : 0
 				}
 			]

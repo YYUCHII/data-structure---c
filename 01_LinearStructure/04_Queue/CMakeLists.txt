@@ -1,3 +1,5 @@
 add_executable(07_SequenceQueue 01_SequenceQueue/SequenceQueue_main.c 01_SequenceQueue/SequenceQueue.c
 01_SequenceQueue/SequenceQueue.h)
 
+add_executable(08_LinkedQueue 02_LinkedQueue/LinkedQueue_main.c 02_LinkedQueue/LinkedQueue.c
+02_LinkedQueue/LinkedQueue.h)
