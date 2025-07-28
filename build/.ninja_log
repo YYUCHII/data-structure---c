@@ -14,3 +14,10 @@
 16	84	7753279321772070	01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir/03_DoubleCircularLinkedList/DoubleCircularLinkedList_main.c.obj	385d557637eae148
 80	162	7752988132557879	01_LinearStructure/02_LinkedList/SinglyLinkedList.exe	1967e4c260590b9a
 85	176	7753279322456477	01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe	1a8af3ec08272c03
+29	415	7753784144572502	01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir/01_SequenceStack/SequenceStack_main.c.obj	a5815bc0c24b4e18
+71	416	7753784144997184	01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir/01_SequenceStack/SequenceStack.c.obj	63d5a6345a4b3fd8
+416	856	7753784148436815	01_LinearStructure/03_Stack/05_SequenceStack.exe	669b6e297d89d8c6
+19	86	7753784372516119	01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir/01_SequenceStack/SequenceStack_main.c.obj	a5815bc0c24b4e18
+87	174	7753784373190561	01_LinearStructure/03_Stack/05_SequenceStack.exe	669b6e297d89d8c6
+18	87	7753785307827402	01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir/01_SequenceStack/SequenceStack_main.c.obj	a5815bc0c24b4e18
+88	174	7753785308524439	01_LinearStructure/03_Stack/05_SequenceStack.exe	669b6e297d89d8c6
