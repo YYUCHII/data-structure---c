@@ -68,7 +68,8 @@
 					"source" : "01_LinearStructure/03_Stack",
 					"targetIndexes" : 
 					[
-						4
+						4,
+						5
 					]
 				},
 				{
@@ -102,7 +103,8 @@
 						1,
 						2,
 						3,
-						4
+						4,
+						5
 					]
 				}
 			],
@@ -141,6 +143,13 @@
 					"id" : "05_SequenceStack::@c0be51ad2b55398e82dc",
 					"jsonFile" : "target-05_SequenceStack-Debug-1d23a72475918ed54e9a.json",
 					"name" : "05_SequenceStack",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "06_LinkedStack::@c0be51ad2b55398e82dc",
+					"jsonFile" : "target-06_LinkedStack-Debug-6d7a27e322a6bd7514de.json",
+					"name" : "06_LinkedStack",
 					"projectIndex" : 0
 				}
 			]

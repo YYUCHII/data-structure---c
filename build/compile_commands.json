@@ -58,5 +58,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\03_Stack\\CMakeFiles\\05_SequenceStack.dir\\01_SequenceStack\\SequenceStack.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\01_SequenceStack\\SequenceStack.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\01_SequenceStack\\SequenceStack.c",
   "output": "01_LinearStructure\\03_Stack\\CMakeFiles\\05_SequenceStack.dir\\01_SequenceStack\\SequenceStack.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\03_Stack\\CMakeFiles\\06_LinkedStack.dir\\02_LinkedStack\\LinkedStack_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\02_LinkedStack\\LinkedStack_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\02_LinkedStack\\LinkedStack_main.c",
+  "output": "01_LinearStructure\\03_Stack\\CMakeFiles\\06_LinkedStack.dir\\02_LinkedStack\\LinkedStack_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\03_Stack\\CMakeFiles\\06_LinkedStack.dir\\02_LinkedStack\\LinkedStack.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\02_LinkedStack\\LinkedStack.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\02_LinkedStack\\LinkedStack.c",
+  "output": "01_LinearStructure\\03_Stack\\CMakeFiles\\06_LinkedStack.dir\\02_LinkedStack\\LinkedStack.c.obj"
 }
 ]
