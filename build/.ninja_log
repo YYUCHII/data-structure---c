@@ -20,3 +20,8 @@
 16	83	7752384563637731	01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj	27a7fbd352642996
 90	181	7753128341834771	01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe	39c83ab825af7b0e
 80	162	7752988132557879	01_LinearStructure/02_LinkedList/SinglyLinkedList.exe	1967e4c260590b9a
+12	85	7753851918445918	01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue.c.obj	11a2c9c3478e56d
+2	86	7753851918338918	01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue_main.c.obj	2350040cccf46604
+86	178	7753851919167951	01_LinearStructure/04_Queue/07_SequenceQueue.exe	3019232d7fbca5fb
+17	81	7753852420207581	01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue_main.c.obj	2350040cccf46604
+81	167	7753852420845726	01_LinearStructure/04_Queue/07_SequenceQueue.exe	3019232d7fbca5fb
