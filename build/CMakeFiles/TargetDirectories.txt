@@ -8,5 +8,8 @@ C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructur
 C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/02_LinkedList/CMakeFiles/edit_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/02_LinkedList/CMakeFiles/rebuild_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/03_Stack/CMakeFiles/edit_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/03_Stack/CMakeFiles/rebuild_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/edit_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/rebuild_cache.dir

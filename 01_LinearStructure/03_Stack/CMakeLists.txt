@@ -1,0 +1,2 @@
+add_executable(05_SequenceStack 01_SequenceStack/SequenceStack_main.c 01_SequenceStack/SequenceStack.c
+01_SequenceStack/SequenceStack.h)

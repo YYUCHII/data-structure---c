@@ -9,7 +9,7 @@
 					"childIndexes" : 
 					[
 						1,
-						3
+						4
 					],
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
 					"minimumCMakeVersion" : 
@@ -23,7 +23,8 @@
 					"build" : "01_LinearStructure",
 					"childIndexes" : 
 					[
-						2
+						2,
+						3
 					],
 					"jsonFile" : "directory-01_LinearStructure-Debug-a5302b1e39786daccc01.json",
 					"minimumCMakeVersion" : 
@@ -56,6 +57,21 @@
 					]
 				},
 				{
+					"build" : "01_LinearStructure/03_Stack",
+					"jsonFile" : "directory-01_LinearStructure.03_Stack-Debug-e251dfb649cf83e80528.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "01_LinearStructure/03_Stack",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
 					"build" : "02_TreeStructrue",
 					"jsonFile" : "directory-02_TreeStructrue-Debug-3d2f09e237eadab7579c.json",
 					"minimumCMakeVersion" : 
@@ -76,7 +92,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					],
 					"name" : "DSLearnC",
 					"targetIndexes" : 
@@ -84,7 +101,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4
 					]
 				}
 			],
@@ -116,6 +134,13 @@
 					"id" : "04_DoubleCircularLinkedList::@6f3604b8634aa00f8e10",
 					"jsonFile" : "target-04_DoubleCircularLinkedList-Debug-f4547c894098c963b2b3.json",
 					"name" : "04_DoubleCircularLinkedList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "05_SequenceStack::@c0be51ad2b55398e82dc",
+					"jsonFile" : "target-05_SequenceStack-Debug-1d23a72475918ed54e9a.json",
+					"name" : "05_SequenceStack",
 					"projectIndex" : 0
 				}
 			]
