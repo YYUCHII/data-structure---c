@@ -69,428 +69,43 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 01_SequenceTable
+# Object build statements for EXECUTABLE target 01_BinaryTree
 
 
 #############################################
-# Order-only phony target for 01_SequenceTable
+# Order-only phony target for 01_BinaryTree
 
-build cmake_object_order_depends_target_01_SequenceTable: phony || .
+build cmake_object_order_depends_target_01_BinaryTree: phony || .
 
-build 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj: C_COMPILER__01_SequenceTable_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/01_SequenceTable/SequenceTable.c || cmake_object_order_depends_target_01_SequenceTable
-  DEP_FILE = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable\SequenceTable.c.obj.d
+build 02_TreeStructrue/CMakeFiles/01_BinaryTree.dir/01_BinaryTree/BinaryTree_main.c.obj: C_COMPILER__01_BinaryTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/01_BinaryTree/BinaryTree_main.c || cmake_object_order_depends_target_01_BinaryTree
+  DEP_FILE = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir\01_BinaryTree\BinaryTree_main.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable
+  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir\01_BinaryTree
 
-build 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj: C_COMPILER__01_SequenceTable_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/01_SequenceTable/SequenceTable_main.c || cmake_object_order_depends_target_01_SequenceTable
-  DEP_FILE = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable\SequenceTable_main.c.obj.d
+build 02_TreeStructrue/CMakeFiles/01_BinaryTree.dir/01_BinaryTree/BinaryTree.c.obj: C_COMPILER__01_BinaryTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/01_BinaryTree/BinaryTree.c || cmake_object_order_depends_target_01_BinaryTree
+  DEP_FILE = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir\01_BinaryTree\BinaryTree.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir\01_SequenceTable
+  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir\01_BinaryTree
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 01_SequenceTable
+# Link build statements for EXECUTABLE target 01_BinaryTree
 
 
 #############################################
-# Link the executable 01_LinearStructure\01_SequenceTable.exe
+# Link the executable 02_TreeStructrue\01_BinaryTree.exe
 
-build 01_LinearStructure/01_SequenceTable.exe: C_EXECUTABLE_LINKER__01_SequenceTable_Debug 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj 01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable_main.c.obj
+build 02_TreeStructrue/01_BinaryTree.exe: C_EXECUTABLE_LINKER__01_BinaryTree_Debug 02_TreeStructrue/CMakeFiles/01_BinaryTree.dir/01_BinaryTree/BinaryTree_main.c.obj 02_TreeStructrue/CMakeFiles/01_BinaryTree.dir/01_BinaryTree/BinaryTree.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\CMakeFiles\01_SequenceTable.dir
+  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\01_SequenceTable.exe
-  TARGET_IMPLIB = 01_LinearStructure\lib01_SequenceTable.dll.a
-  TARGET_PDB = 01_SequenceTable.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build 01_LinearStructure/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build 01_LinearStructure/edit_cache: phony 01_LinearStructure/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build 01_LinearStructure/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build 01_LinearStructure/rebuild_cache: phony 01_LinearStructure/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/25804/Desktop/data structure/data-structure---c/01_LinearStructure/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 02_SinglyLinkedList
-
-
-#############################################
-# Order-only phony target for 02_SinglyLinkedList
-
-build cmake_object_order_depends_target_02_SinglyLinkedList: phony || .
-
-build 01_LinearStructure/02_LinkedList/CMakeFiles/02_SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList_main.c.obj: C_COMPILER__02_SinglyLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/01_SinglyLinkedList/SinglyLinkedList_main.c || cmake_object_order_depends_target_02_SinglyLinkedList
-  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir\01_SinglyLinkedList\SinglyLinkedList_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir\01_SinglyLinkedList
-
-build 01_LinearStructure/02_LinkedList/CMakeFiles/02_SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList.c.obj: C_COMPILER__02_SinglyLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/01_SinglyLinkedList/SinglyLinkedList.c || cmake_object_order_depends_target_02_SinglyLinkedList
-  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir\01_SinglyLinkedList\SinglyLinkedList.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir\01_SinglyLinkedList
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 02_SinglyLinkedList
-
-
-#############################################
-# Link the executable 01_LinearStructure\02_LinkedList\02_SinglyLinkedList.exe
-
-build 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe: C_EXECUTABLE_LINKER__02_SinglyLinkedList_Debug 01_LinearStructure/02_LinkedList/CMakeFiles/02_SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList_main.c.obj 01_LinearStructure/02_LinkedList/CMakeFiles/02_SinglyLinkedList.dir/01_SinglyLinkedList/SinglyLinkedList.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\02_SinglyLinkedList.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\02_LinkedList\02_SinglyLinkedList.exe
-  TARGET_IMPLIB = 01_LinearStructure\02_LinkedList\lib02_SinglyLinkedList.dll.a
-  TARGET_PDB = 02_SinglyLinkedList.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 03_CircularLinkedList
-
-
-#############################################
-# Order-only phony target for 03_CircularLinkedList
-
-build cmake_object_order_depends_target_03_CircularLinkedList: phony || .
-
-build 01_LinearStructure/02_LinkedList/CMakeFiles/03_CircularLinkedList.dir/02_CircularLinkedList/CircularLinkedList_main.c.obj: C_COMPILER__03_CircularLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/02_CircularLinkedList/CircularLinkedList_main.c || cmake_object_order_depends_target_03_CircularLinkedList
-  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir\02_CircularLinkedList\CircularLinkedList_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir\02_CircularLinkedList
-
-build 01_LinearStructure/02_LinkedList/CMakeFiles/03_CircularLinkedList.dir/02_CircularLinkedList/CircularLinkedList.c.obj: C_COMPILER__03_CircularLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/02_CircularLinkedList/CircularLinkedList.c || cmake_object_order_depends_target_03_CircularLinkedList
-  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir\02_CircularLinkedList\CircularLinkedList.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir\02_CircularLinkedList
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 03_CircularLinkedList
-
-
-#############################################
-# Link the executable 01_LinearStructure\02_LinkedList\03_CircularLinkedList.exe
-
-build 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe: C_EXECUTABLE_LINKER__03_CircularLinkedList_Debug 01_LinearStructure/02_LinkedList/CMakeFiles/03_CircularLinkedList.dir/02_CircularLinkedList/CircularLinkedList_main.c.obj 01_LinearStructure/02_LinkedList/CMakeFiles/03_CircularLinkedList.dir/02_CircularLinkedList/CircularLinkedList.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\03_CircularLinkedList.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\02_LinkedList\03_CircularLinkedList.exe
-  TARGET_IMPLIB = 01_LinearStructure\02_LinkedList\lib03_CircularLinkedList.dll.a
-  TARGET_PDB = 03_CircularLinkedList.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 04_DoubleCircularLinkedList
-
-
-#############################################
-# Order-only phony target for 04_DoubleCircularLinkedList
-
-build cmake_object_order_depends_target_04_DoubleCircularLinkedList: phony || .
-
-build 01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir/03_DoubleCircularLinkedList/DoubleCircularLinkedList_main.c.obj: C_COMPILER__04_DoubleCircularLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/03_DoubleCircularLinkedList/DoubleCircularLinkedList_main.c || cmake_object_order_depends_target_04_DoubleCircularLinkedList
-  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir\03_DoubleCircularLinkedList\DoubleCircularLinkedList_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir\03_DoubleCircularLinkedList
-
-build 01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir/03_DoubleCircularLinkedList/DoubleCircularLinkedList.c.obj: C_COMPILER__04_DoubleCircularLinkedList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/03_DoubleCircularLinkedList/DoubleCircularLinkedList.c || cmake_object_order_depends_target_04_DoubleCircularLinkedList
-  DEP_FILE = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir\03_DoubleCircularLinkedList\DoubleCircularLinkedList.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir\03_DoubleCircularLinkedList
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 04_DoubleCircularLinkedList
-
-
-#############################################
-# Link the executable 01_LinearStructure\02_LinkedList\04_DoubleCircularLinkedList.exe
-
-build 01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe: C_EXECUTABLE_LINKER__04_DoubleCircularLinkedList_Debug 01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir/03_DoubleCircularLinkedList/DoubleCircularLinkedList_main.c.obj 01_LinearStructure/02_LinkedList/CMakeFiles/04_DoubleCircularLinkedList.dir/03_DoubleCircularLinkedList/DoubleCircularLinkedList.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\02_LinkedList\CMakeFiles\04_DoubleCircularLinkedList.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\02_LinkedList\04_DoubleCircularLinkedList.exe
-  TARGET_IMPLIB = 01_LinearStructure\02_LinkedList\lib04_DoubleCircularLinkedList.dll.a
-  TARGET_PDB = 04_DoubleCircularLinkedList.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build 01_LinearStructure/02_LinkedList/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure\02_LinkedList" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build 01_LinearStructure/02_LinkedList/edit_cache: phony 01_LinearStructure/02_LinkedList/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build 01_LinearStructure/02_LinkedList/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure\02_LinkedList" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build 01_LinearStructure/02_LinkedList/rebuild_cache: phony 01_LinearStructure/02_LinkedList/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/25804/Desktop/data structure/data-structure---c/01_LinearStructure/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 05_SequenceStack
-
-
-#############################################
-# Order-only phony target for 05_SequenceStack
-
-build cmake_object_order_depends_target_05_SequenceStack: phony || .
-
-build 01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir/01_SequenceStack/SequenceStack_main.c.obj: C_COMPILER__05_SequenceStack_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/01_SequenceStack/SequenceStack_main.c || cmake_object_order_depends_target_05_SequenceStack
-  DEP_FILE = 01_LinearStructure\03_Stack\CMakeFiles\05_SequenceStack.dir\01_SequenceStack\SequenceStack_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\03_Stack\CMakeFiles\05_SequenceStack.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\03_Stack\CMakeFiles\05_SequenceStack.dir\01_SequenceStack
-
-build 01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir/01_SequenceStack/SequenceStack.c.obj: C_COMPILER__05_SequenceStack_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/01_SequenceStack/SequenceStack.c || cmake_object_order_depends_target_05_SequenceStack
-  DEP_FILE = 01_LinearStructure\03_Stack\CMakeFiles\05_SequenceStack.dir\01_SequenceStack\SequenceStack.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\03_Stack\CMakeFiles\05_SequenceStack.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\03_Stack\CMakeFiles\05_SequenceStack.dir\01_SequenceStack
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 05_SequenceStack
-
-
-#############################################
-# Link the executable 01_LinearStructure\03_Stack\05_SequenceStack.exe
-
-build 01_LinearStructure/03_Stack/05_SequenceStack.exe: C_EXECUTABLE_LINKER__05_SequenceStack_Debug 01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir/01_SequenceStack/SequenceStack_main.c.obj 01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir/01_SequenceStack/SequenceStack.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\03_Stack\CMakeFiles\05_SequenceStack.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\03_Stack\05_SequenceStack.exe
-  TARGET_IMPLIB = 01_LinearStructure\03_Stack\lib05_SequenceStack.dll.a
-  TARGET_PDB = 05_SequenceStack.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 06_LinkedStack
-
-
-#############################################
-# Order-only phony target for 06_LinkedStack
-
-build cmake_object_order_depends_target_06_LinkedStack: phony || .
-
-build 01_LinearStructure/03_Stack/CMakeFiles/06_LinkedStack.dir/02_LinkedStack/LinkedStack_main.c.obj: C_COMPILER__06_LinkedStack_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/02_LinkedStack/LinkedStack_main.c || cmake_object_order_depends_target_06_LinkedStack
-  DEP_FILE = 01_LinearStructure\03_Stack\CMakeFiles\06_LinkedStack.dir\02_LinkedStack\LinkedStack_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\03_Stack\CMakeFiles\06_LinkedStack.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\03_Stack\CMakeFiles\06_LinkedStack.dir\02_LinkedStack
-
-build 01_LinearStructure/03_Stack/CMakeFiles/06_LinkedStack.dir/02_LinkedStack/LinkedStack.c.obj: C_COMPILER__06_LinkedStack_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/02_LinkedStack/LinkedStack.c || cmake_object_order_depends_target_06_LinkedStack
-  DEP_FILE = 01_LinearStructure\03_Stack\CMakeFiles\06_LinkedStack.dir\02_LinkedStack\LinkedStack.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\03_Stack\CMakeFiles\06_LinkedStack.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\03_Stack\CMakeFiles\06_LinkedStack.dir\02_LinkedStack
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 06_LinkedStack
-
-
-#############################################
-# Link the executable 01_LinearStructure\03_Stack\06_LinkedStack.exe
-
-build 01_LinearStructure/03_Stack/06_LinkedStack.exe: C_EXECUTABLE_LINKER__06_LinkedStack_Debug 01_LinearStructure/03_Stack/CMakeFiles/06_LinkedStack.dir/02_LinkedStack/LinkedStack_main.c.obj 01_LinearStructure/03_Stack/CMakeFiles/06_LinkedStack.dir/02_LinkedStack/LinkedStack.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\03_Stack\CMakeFiles\06_LinkedStack.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\03_Stack\06_LinkedStack.exe
-  TARGET_IMPLIB = 01_LinearStructure\03_Stack\lib06_LinkedStack.dll.a
-  TARGET_PDB = 06_LinkedStack.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build 01_LinearStructure/03_Stack/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure\03_Stack" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build 01_LinearStructure/03_Stack/edit_cache: phony 01_LinearStructure/03_Stack/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build 01_LinearStructure/03_Stack/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure\03_Stack" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build 01_LinearStructure/03_Stack/rebuild_cache: phony 01_LinearStructure/03_Stack/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/25804/Desktop/data structure/data-structure---c/01_LinearStructure/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 07_SequenceQueue
-
-
-#############################################
-# Order-only phony target for 07_SequenceQueue
-
-build cmake_object_order_depends_target_07_SequenceQueue: phony || .
-
-build 01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue_main.c.obj: C_COMPILER__07_SequenceQueue_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/01_SequenceQueue/SequenceQueue_main.c || cmake_object_order_depends_target_07_SequenceQueue
-  DEP_FILE = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir\01_SequenceQueue\SequenceQueue_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir\01_SequenceQueue
-
-build 01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue.c.obj: C_COMPILER__07_SequenceQueue_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/01_SequenceQueue/SequenceQueue.c || cmake_object_order_depends_target_07_SequenceQueue
-  DEP_FILE = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir\01_SequenceQueue\SequenceQueue.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir\01_SequenceQueue
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 07_SequenceQueue
-
-
-#############################################
-# Link the executable 01_LinearStructure\04_Queue\07_SequenceQueue.exe
-
-build 01_LinearStructure/04_Queue/07_SequenceQueue.exe: C_EXECUTABLE_LINKER__07_SequenceQueue_Debug 01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue_main.c.obj 01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\04_Queue\07_SequenceQueue.exe
-  TARGET_IMPLIB = 01_LinearStructure\04_Queue\lib07_SequenceQueue.dll.a
-  TARGET_PDB = 07_SequenceQueue.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 08_LinkedQueue
-
-
-#############################################
-# Order-only phony target for 08_LinkedQueue
-
-build cmake_object_order_depends_target_08_LinkedQueue: phony || .
-
-build 01_LinearStructure/04_Queue/CMakeFiles/08_LinkedQueue.dir/02_LinkedQueue/LinkedQueue_main.c.obj: C_COMPILER__08_LinkedQueue_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/02_LinkedQueue/LinkedQueue_main.c || cmake_object_order_depends_target_08_LinkedQueue
-  DEP_FILE = 01_LinearStructure\04_Queue\CMakeFiles\08_LinkedQueue.dir\02_LinkedQueue\LinkedQueue_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\04_Queue\CMakeFiles\08_LinkedQueue.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\04_Queue\CMakeFiles\08_LinkedQueue.dir\02_LinkedQueue
-
-build 01_LinearStructure/04_Queue/CMakeFiles/08_LinkedQueue.dir/02_LinkedQueue/LinkedQueue.c.obj: C_COMPILER__08_LinkedQueue_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/02_LinkedQueue/LinkedQueue.c || cmake_object_order_depends_target_08_LinkedQueue
-  DEP_FILE = 01_LinearStructure\04_Queue\CMakeFiles\08_LinkedQueue.dir\02_LinkedQueue\LinkedQueue.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 01_LinearStructure\04_Queue\CMakeFiles\08_LinkedQueue.dir
-  OBJECT_FILE_DIR = 01_LinearStructure\04_Queue\CMakeFiles\08_LinkedQueue.dir\02_LinkedQueue
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 08_LinkedQueue
-
-
-#############################################
-# Link the executable 01_LinearStructure\04_Queue\08_LinkedQueue.exe
-
-build 01_LinearStructure/04_Queue/08_LinkedQueue.exe: C_EXECUTABLE_LINKER__08_LinkedQueue_Debug 01_LinearStructure/04_Queue/CMakeFiles/08_LinkedQueue.dir/02_LinkedQueue/LinkedQueue_main.c.obj 01_LinearStructure/04_Queue/CMakeFiles/08_LinkedQueue.dir/02_LinkedQueue/LinkedQueue.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 01_LinearStructure\04_Queue\CMakeFiles\08_LinkedQueue.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 01_LinearStructure\04_Queue\08_LinkedQueue.exe
-  TARGET_IMPLIB = 01_LinearStructure\04_Queue\lib08_LinkedQueue.dll.a
-  TARGET_PDB = 08_LinkedQueue.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build 01_LinearStructure/04_Queue/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure\04_Queue" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build 01_LinearStructure/04_Queue/edit_cache: phony 01_LinearStructure/04_Queue/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build 01_LinearStructure/04_Queue/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure\04_Queue" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build 01_LinearStructure/04_Queue/rebuild_cache: phony 01_LinearStructure/04_Queue/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/25804/Desktop/data structure/data-structure---c/CMakeLists.txt
-# =============================================================================
+  TARGET_FILE = 02_TreeStructrue\01_BinaryTree.exe
+  TARGET_IMPLIB = 02_TreeStructrue\lib01_BinaryTree.dll.a
+  TARGET_PDB = 01_BinaryTree.exe.dbg
 
 
 #############################################
@@ -518,37 +133,9 @@ build 02_TreeStructrue/rebuild_cache: phony 02_TreeStructrue/CMakeFiles/rebuild_
 # =============================================================================
 # Target aliases.
 
-build 01_SequenceTable: phony 01_LinearStructure/01_SequenceTable.exe
+build 01_BinaryTree: phony 02_TreeStructrue/01_BinaryTree.exe
 
-build 01_SequenceTable.exe: phony 01_LinearStructure/01_SequenceTable.exe
-
-build 02_SinglyLinkedList: phony 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe
-
-build 02_SinglyLinkedList.exe: phony 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe
-
-build 03_CircularLinkedList: phony 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe
-
-build 03_CircularLinkedList.exe: phony 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe
-
-build 04_DoubleCircularLinkedList: phony 01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe
-
-build 04_DoubleCircularLinkedList.exe: phony 01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe
-
-build 05_SequenceStack: phony 01_LinearStructure/03_Stack/05_SequenceStack.exe
-
-build 05_SequenceStack.exe: phony 01_LinearStructure/03_Stack/05_SequenceStack.exe
-
-build 06_LinkedStack: phony 01_LinearStructure/03_Stack/06_LinkedStack.exe
-
-build 06_LinkedStack.exe: phony 01_LinearStructure/03_Stack/06_LinkedStack.exe
-
-build 07_SequenceQueue: phony 01_LinearStructure/04_Queue/07_SequenceQueue.exe
-
-build 07_SequenceQueue.exe: phony 01_LinearStructure/04_Queue/07_SequenceQueue.exe
-
-build 08_LinkedQueue: phony 01_LinearStructure/04_Queue/08_LinkedQueue.exe
-
-build 08_LinkedQueue.exe: phony 01_LinearStructure/04_Queue/08_LinkedQueue.exe
+build 01_BinaryTree.exe: phony 02_TreeStructrue/01_BinaryTree.exe
 
 # =============================================================================
 # Folder targets.
@@ -558,42 +145,14 @@ build 08_LinkedQueue.exe: phony 01_LinearStructure/04_Queue/08_LinkedQueue.exe
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build
 
-build all: phony 01_LinearStructure/all 02_TreeStructrue/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure
-
-build 01_LinearStructure/all: phony 01_LinearStructure/01_SequenceTable.exe 01_LinearStructure/02_LinkedList/all 01_LinearStructure/03_Stack/all 01_LinearStructure/04_Queue/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/02_LinkedList
-
-build 01_LinearStructure/02_LinkedList/all: phony 01_LinearStructure/02_LinkedList/02_SinglyLinkedList.exe 01_LinearStructure/02_LinkedList/03_CircularLinkedList.exe 01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/03_Stack
-
-build 01_LinearStructure/03_Stack/all: phony 01_LinearStructure/03_Stack/05_SequenceStack.exe 01_LinearStructure/03_Stack/06_LinkedStack.exe
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/04_Queue
-
-build 01_LinearStructure/04_Queue/all: phony 01_LinearStructure/04_Queue/07_SequenceQueue.exe 01_LinearStructure/04_Queue/08_LinkedQueue.exe
+build all: phony 02_TreeStructrue/all
 
 # =============================================================================
 
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue
 
-build 02_TreeStructrue/all: phony
+build 02_TreeStructrue/all: phony 02_TreeStructrue/01_BinaryTree.exe
 
 # =============================================================================
 # Built-in targets
@@ -602,14 +161,14 @@ build 02_TreeStructrue/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

@@ -1,98 +1,14 @@
 [
 {
   "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable.c",
-  "output": "01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable.c.obj"
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\01_BinaryTree.dir\\01_BinaryTree\\BinaryTree_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\01_BinaryTree\\BinaryTree_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\01_BinaryTree\\BinaryTree_main.c",
+  "output": "02_TreeStructrue\\CMakeFiles\\01_BinaryTree.dir\\01_BinaryTree\\BinaryTree_main.c.obj"
 },
 {
   "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\01_SequenceTable\\SequenceTable_main.c",
-  "output": "01_LinearStructure\\CMakeFiles\\01_SequenceTable.dir\\01_SequenceTable\\SequenceTable_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\02_LinkedList\\CMakeFiles\\02_SinglyLinkedList.dir\\01_SinglyLinkedList\\SinglyLinkedList_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\01_SinglyLinkedList\\SinglyLinkedList_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\01_SinglyLinkedList\\SinglyLinkedList_main.c",
-  "output": "01_LinearStructure\\02_LinkedList\\CMakeFiles\\02_SinglyLinkedList.dir\\01_SinglyLinkedList\\SinglyLinkedList_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\02_LinkedList\\CMakeFiles\\02_SinglyLinkedList.dir\\01_SinglyLinkedList\\SinglyLinkedList.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\01_SinglyLinkedList\\SinglyLinkedList.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\01_SinglyLinkedList\\SinglyLinkedList.c",
-  "output": "01_LinearStructure\\02_LinkedList\\CMakeFiles\\02_SinglyLinkedList.dir\\01_SinglyLinkedList\\SinglyLinkedList.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\02_LinkedList\\CMakeFiles\\03_CircularLinkedList.dir\\02_CircularLinkedList\\CircularLinkedList_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\02_CircularLinkedList\\CircularLinkedList_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\02_CircularLinkedList\\CircularLinkedList_main.c",
-  "output": "01_LinearStructure\\02_LinkedList\\CMakeFiles\\03_CircularLinkedList.dir\\02_CircularLinkedList\\CircularLinkedList_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\02_LinkedList\\CMakeFiles\\03_CircularLinkedList.dir\\02_CircularLinkedList\\CircularLinkedList.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\02_CircularLinkedList\\CircularLinkedList.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\02_CircularLinkedList\\CircularLinkedList.c",
-  "output": "01_LinearStructure\\02_LinkedList\\CMakeFiles\\03_CircularLinkedList.dir\\02_CircularLinkedList\\CircularLinkedList.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\02_LinkedList\\CMakeFiles\\04_DoubleCircularLinkedList.dir\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList_main.c",
-  "output": "01_LinearStructure\\02_LinkedList\\CMakeFiles\\04_DoubleCircularLinkedList.dir\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\02_LinkedList\\CMakeFiles\\04_DoubleCircularLinkedList.dir\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\02_LinkedList\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList.c",
-  "output": "01_LinearStructure\\02_LinkedList\\CMakeFiles\\04_DoubleCircularLinkedList.dir\\03_DoubleCircularLinkedList\\DoubleCircularLinkedList.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\03_Stack\\CMakeFiles\\05_SequenceStack.dir\\01_SequenceStack\\SequenceStack_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\01_SequenceStack\\SequenceStack_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\01_SequenceStack\\SequenceStack_main.c",
-  "output": "01_LinearStructure\\03_Stack\\CMakeFiles\\05_SequenceStack.dir\\01_SequenceStack\\SequenceStack_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\03_Stack\\CMakeFiles\\05_SequenceStack.dir\\01_SequenceStack\\SequenceStack.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\01_SequenceStack\\SequenceStack.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\01_SequenceStack\\SequenceStack.c",
-  "output": "01_LinearStructure\\03_Stack\\CMakeFiles\\05_SequenceStack.dir\\01_SequenceStack\\SequenceStack.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\03_Stack\\CMakeFiles\\06_LinkedStack.dir\\02_LinkedStack\\LinkedStack_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\02_LinkedStack\\LinkedStack_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\02_LinkedStack\\LinkedStack_main.c",
-  "output": "01_LinearStructure\\03_Stack\\CMakeFiles\\06_LinkedStack.dir\\02_LinkedStack\\LinkedStack_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\03_Stack\\CMakeFiles\\06_LinkedStack.dir\\02_LinkedStack\\LinkedStack.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\02_LinkedStack\\LinkedStack.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\03_Stack\\02_LinkedStack\\LinkedStack.c",
-  "output": "01_LinearStructure\\03_Stack\\CMakeFiles\\06_LinkedStack.dir\\02_LinkedStack\\LinkedStack.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\04_Queue\\CMakeFiles\\07_SequenceQueue.dir\\01_SequenceQueue\\SequenceQueue_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\01_SequenceQueue\\SequenceQueue_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\01_SequenceQueue\\SequenceQueue_main.c",
-  "output": "01_LinearStructure\\04_Queue\\CMakeFiles\\07_SequenceQueue.dir\\01_SequenceQueue\\SequenceQueue_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\04_Queue\\CMakeFiles\\07_SequenceQueue.dir\\01_SequenceQueue\\SequenceQueue.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\01_SequenceQueue\\SequenceQueue.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\01_SequenceQueue\\SequenceQueue.c",
-  "output": "01_LinearStructure\\04_Queue\\CMakeFiles\\07_SequenceQueue.dir\\01_SequenceQueue\\SequenceQueue.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\04_Queue\\CMakeFiles\\08_LinkedQueue.dir\\02_LinkedQueue\\LinkedQueue_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\02_LinkedQueue\\LinkedQueue_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\02_LinkedQueue\\LinkedQueue_main.c",
-  "output": "01_LinearStructure\\04_Queue\\CMakeFiles\\08_LinkedQueue.dir\\02_LinkedQueue\\LinkedQueue_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 01_LinearStructure\\04_Queue\\CMakeFiles\\08_LinkedQueue.dir\\02_LinkedQueue\\LinkedQueue.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\02_LinkedQueue\\LinkedQueue.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\01_LinearStructure\\04_Queue\\02_LinkedQueue\\LinkedQueue.c",
-  "output": "01_LinearStructure\\04_Queue\\CMakeFiles\\08_LinkedQueue.dir\\02_LinkedQueue\\LinkedQueue.c.obj"
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\01_BinaryTree.dir\\01_BinaryTree\\BinaryTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\01_BinaryTree\\BinaryTree.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\01_BinaryTree\\BinaryTree.c",
+  "output": "02_TreeStructrue\\CMakeFiles\\01_BinaryTree.dir\\01_BinaryTree\\BinaryTree.c.obj"
 }
 ]

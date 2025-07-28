@@ -151,18 +151,6 @@
 			"path" : "D:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "01_LinearStructure/CMakeLists.txt"
-		},
-		{
-			"path" : "01_LinearStructure/02_LinkedList/CMakeLists.txt"
-		},
-		{
-			"path" : "01_LinearStructure/03_Stack/CMakeLists.txt"
-		},
-		{
-			"path" : "01_LinearStructure/04_Queue/CMakeLists.txt"
-		},
-		{
 			"path" : "02_TreeStructrue/CMakeLists.txt"
 		}
 	],

@@ -39,7 +39,6 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/cmake_install.cmake")
   include("C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/cmake_install.cmake")
 
 endif()
