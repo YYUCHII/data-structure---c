@@ -383,6 +383,73 @@ build 01_LinearStructure/03_Stack/rebuild_cache: phony 01_LinearStructure/03_Sta
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
+# C:/Users/25804/Desktop/data structure/data-structure---c/01_LinearStructure/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 07_SequenceQueue
+
+
+#############################################
+# Order-only phony target for 07_SequenceQueue
+
+build cmake_object_order_depends_target_07_SequenceQueue: phony || .
+
+build 01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue_main.c.obj: C_COMPILER__07_SequenceQueue_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/01_SequenceQueue/SequenceQueue_main.c || cmake_object_order_depends_target_07_SequenceQueue
+  DEP_FILE = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir\01_SequenceQueue\SequenceQueue_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir\01_SequenceQueue
+
+build 01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue.c.obj: C_COMPILER__07_SequenceQueue_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/01_SequenceQueue/SequenceQueue.c || cmake_object_order_depends_target_07_SequenceQueue
+  DEP_FILE = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir\01_SequenceQueue\SequenceQueue.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir
+  OBJECT_FILE_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir\01_SequenceQueue
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07_SequenceQueue
+
+
+#############################################
+# Link the executable 01_LinearStructure\04_Queue\07_SequenceQueue.exe
+
+build 01_LinearStructure/04_Queue/07_SequenceQueue.exe: C_EXECUTABLE_LINKER__07_SequenceQueue_Debug 01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue_main.c.obj 01_LinearStructure/04_Queue/CMakeFiles/07_SequenceQueue.dir/01_SequenceQueue/SequenceQueue.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 01_LinearStructure\04_Queue\CMakeFiles\07_SequenceQueue.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 01_LinearStructure\04_Queue\07_SequenceQueue.exe
+  TARGET_IMPLIB = 01_LinearStructure\04_Queue\lib07_SequenceQueue.dll.a
+  TARGET_PDB = 07_SequenceQueue.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 01_LinearStructure/04_Queue/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure\04_Queue" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 01_LinearStructure/04_Queue/edit_cache: phony 01_LinearStructure/04_Queue/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 01_LinearStructure/04_Queue/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\01_LinearStructure\04_Queue" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 01_LinearStructure/04_Queue/rebuild_cache: phony 01_LinearStructure/04_Queue/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
 # C:/Users/25804/Desktop/data structure/data-structure---c/CMakeLists.txt
 # =============================================================================
 
@@ -436,6 +503,10 @@ build 06_LinkedStack: phony 01_LinearStructure/03_Stack/06_LinkedStack.exe
 
 build 06_LinkedStack.exe: phony 01_LinearStructure/03_Stack/06_LinkedStack.exe
 
+build 07_SequenceQueue: phony 01_LinearStructure/04_Queue/07_SequenceQueue.exe
+
+build 07_SequenceQueue.exe: phony 01_LinearStructure/04_Queue/07_SequenceQueue.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -451,7 +522,7 @@ build all: phony 01_LinearStructure/all 02_TreeStructrue/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure
 
-build 01_LinearStructure/all: phony 01_LinearStructure/01_SequenceTable.exe 01_LinearStructure/02_LinkedList/all 01_LinearStructure/03_Stack/all
+build 01_LinearStructure/all: phony 01_LinearStructure/01_SequenceTable.exe 01_LinearStructure/02_LinkedList/all 01_LinearStructure/03_Stack/all 01_LinearStructure/04_Queue/all
 
 # =============================================================================
 
@@ -470,6 +541,13 @@ build 01_LinearStructure/03_Stack/all: phony 01_LinearStructure/03_Stack/05_Sequ
 # =============================================================================
 
 #############################################
+# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/01_LinearStructure/04_Queue
+
+build 01_LinearStructure/04_Queue/all: phony 01_LinearStructure/04_Queue/07_SequenceQueue.exe
+
+# =============================================================================
+
+#############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue
 
 build 02_TreeStructrue/all: phony
@@ -481,14 +559,14 @@ build 02_TreeStructrue/all: phony
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/02_LinkedList/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/03_Stack/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/04_Queue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/01_LinearStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

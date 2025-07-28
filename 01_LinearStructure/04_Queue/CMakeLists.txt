@@ -1,0 +1,3 @@
+add_executable(07_SequenceQueue 01_SequenceQueue/SequenceQueue_main.c 01_SequenceQueue/SequenceQueue.c
+01_SequenceQueue/SequenceQueue.h)
+

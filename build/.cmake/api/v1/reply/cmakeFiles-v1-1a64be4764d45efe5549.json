@@ -160,6 +160,9 @@
 			"path" : "01_LinearStructure/03_Stack/CMakeLists.txt"
 		},
 		{
+			"path" : "01_LinearStructure/04_Queue/CMakeLists.txt"
+		},
+		{
 			"path" : "02_TreeStructrue/CMakeLists.txt"
 		}
 	],
