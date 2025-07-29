@@ -107,6 +107,45 @@ build 02_TreeStructrue/01_BinaryTree.exe: C_EXECUTABLE_LINKER__01_BinaryTree_Deb
   TARGET_IMPLIB = 02_TreeStructrue\lib01_BinaryTree.dll.a
   TARGET_PDB = 01_BinaryTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_InorderThreadedBinaryTree
+
+
+#############################################
+# Order-only phony target for 02_InorderThreadedBinaryTree
+
+build cmake_object_order_depends_target_02_InorderThreadedBinaryTree: phony || .
+
+build 02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree_main.c.obj: C_COMPILER__02_InorderThreadedBinaryTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree_main.c || cmake_object_order_depends_target_02_InorderThreadedBinaryTree
+  DEP_FILE = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir\02_InorderThreadedBinaryTree\InorderThreadedBinaryTree_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir\02_InorderThreadedBinaryTree
+
+build 02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree.c.obj: C_COMPILER__02_InorderThreadedBinaryTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree.c || cmake_object_order_depends_target_02_InorderThreadedBinaryTree
+  DEP_FILE = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir\02_InorderThreadedBinaryTree\InorderThreadedBinaryTree.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir\02_InorderThreadedBinaryTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_InorderThreadedBinaryTree
+
+
+#############################################
+# Link the executable 02_TreeStructrue\02_InorderThreadedBinaryTree.exe
+
+build 02_TreeStructrue/02_InorderThreadedBinaryTree.exe: C_EXECUTABLE_LINKER__02_InorderThreadedBinaryTree_Debug 02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree_main.c.obj 02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_TreeStructrue\02_InorderThreadedBinaryTree.exe
+  TARGET_IMPLIB = 02_TreeStructrue\lib02_InorderThreadedBinaryTree.dll.a
+  TARGET_PDB = 02_InorderThreadedBinaryTree.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -137,6 +176,10 @@ build 01_BinaryTree: phony 02_TreeStructrue/01_BinaryTree.exe
 
 build 01_BinaryTree.exe: phony 02_TreeStructrue/01_BinaryTree.exe
 
+build 02_InorderThreadedBinaryTree: phony 02_TreeStructrue/02_InorderThreadedBinaryTree.exe
+
+build 02_InorderThreadedBinaryTree.exe: phony 02_TreeStructrue/02_InorderThreadedBinaryTree.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -152,7 +195,7 @@ build all: phony 02_TreeStructrue/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue
 
-build 02_TreeStructrue/all: phony 02_TreeStructrue/01_BinaryTree.exe
+build 02_TreeStructrue/all: phony 02_TreeStructrue/01_BinaryTree.exe 02_TreeStructrue/02_InorderThreadedBinaryTree.exe
 
 # =============================================================================
 # Built-in targets

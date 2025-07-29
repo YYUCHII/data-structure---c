@@ -1,5 +1,6 @@
 C:/Users/25804/Desktop/data structure/data-structure---c/build/CMakeFiles/edit_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/CMakeFiles/rebuild_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/01_BinaryTree.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/edit_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/rebuild_cache.dir
