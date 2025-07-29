@@ -22,5 +22,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\02_InorderThreadedBinaryTree.dir\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree.c",
   "output": "02_TreeStructrue\\CMakeFiles\\02_InorderThreadedBinaryTree.dir\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree_main.c",
+  "output": "02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree.c",
+  "output": "02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree.c.obj"
 }
 ]

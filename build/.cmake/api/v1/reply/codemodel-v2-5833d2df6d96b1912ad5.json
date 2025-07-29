@@ -31,7 +31,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -48,7 +49,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -66,6 +68,13 @@
 					"id" : "02_InorderThreadedBinaryTree::@80cae793418fd112e36b",
 					"jsonFile" : "target-02_InorderThreadedBinaryTree-Debug-5bc62491045c3fa5f3ba.json",
 					"name" : "02_InorderThreadedBinaryTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "03_BinarySearchTree::@80cae793418fd112e36b",
+					"jsonFile" : "target-03_BinarySearchTree-Debug-b906747d57cf46c7f952.json",
+					"name" : "03_BinarySearchTree",
 					"projectIndex" : 0
 				}
 			]
