@@ -248,6 +248,112 @@ build 02_TreeStructrue/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
 build 02_TreeStructrue/rebuild_cache: phony 02_TreeStructrue/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# C:/Users/25804/Desktop/data structure/data-structure---c/02_TreeStructrue/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_QuickFindSet
+
+
+#############################################
+# Order-only phony target for 05_QuickFindSet
+
+build cmake_object_order_depends_target_05_QuickFindSet: phony || .
+
+build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet_main.c.obj: C_COMPILER__05_QuickFindSet_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/05_QuickFindSet/QuickFindSet_main.c || cmake_object_order_depends_target_05_QuickFindSet
+  DEP_FILE = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir\05_QuickFindSet\QuickFindSet_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir\05_QuickFindSet
+
+build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet.c.obj: C_COMPILER__05_QuickFindSet_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/05_QuickFindSet/QuickFindSet.c || cmake_object_order_depends_target_05_QuickFindSet
+  DEP_FILE = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir\05_QuickFindSet\QuickFindSet.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir\05_QuickFindSet
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_QuickFindSet
+
+
+#############################################
+# Link the executable 02_TreeStructrue\05_UnionFindSet\05_QuickFindSet.exe
+
+build 02_TreeStructrue/05_UnionFindSet/05_QuickFindSet.exe: C_EXECUTABLE_LINKER__05_QuickFindSet_Debug 02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet_main.c.obj 02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_TreeStructrue\05_UnionFindSet\05_QuickFindSet.exe
+  TARGET_IMPLIB = 02_TreeStructrue\05_UnionFindSet\lib05_QuickFindSet.dll.a
+  TARGET_PDB = 05_QuickFindSet.exe.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_QuickUnionSet
+
+
+#############################################
+# Order-only phony target for 06_QuickUnionSet
+
+build cmake_object_order_depends_target_06_QuickUnionSet: phony || .
+
+build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet_main.c.obj: C_COMPILER__06_QuickUnionSet_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet/QuickUnionSet_main.c || cmake_object_order_depends_target_06_QuickUnionSet
+  DEP_FILE = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir\06_QuickUnionSet\QuickUnionSet_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir\06_QuickUnionSet
+
+build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet.c.obj: C_COMPILER__06_QuickUnionSet_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet/QuickUnionSet.c || cmake_object_order_depends_target_06_QuickUnionSet
+  DEP_FILE = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir\06_QuickUnionSet\QuickUnionSet.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir\06_QuickUnionSet
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_QuickUnionSet
+
+
+#############################################
+# Link the executable 02_TreeStructrue\05_UnionFindSet\06_QuickUnionSet.exe
+
+build 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe: C_EXECUTABLE_LINKER__06_QuickUnionSet_Debug 02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet_main.c.obj 02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_TreeStructrue\05_UnionFindSet\06_QuickUnionSet.exe
+  TARGET_IMPLIB = 02_TreeStructrue\05_UnionFindSet\lib06_QuickUnionSet.dll.a
+  TARGET_PDB = 06_QuickUnionSet.exe.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\02_TreeStructrue\05_UnionFindSet" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build 02_TreeStructrue/05_UnionFindSet/edit_cache: phony 02_TreeStructrue/05_UnionFindSet/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\02_TreeStructrue\05_UnionFindSet" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build 02_TreeStructrue/05_UnionFindSet/rebuild_cache: phony 02_TreeStructrue/05_UnionFindSet/CMakeFiles/rebuild_cache.util
+
+# =============================================================================
 # Target aliases.
 
 build 01_BinaryTree: phony 02_TreeStructrue/01_BinaryTree.exe
@@ -266,6 +372,14 @@ build 04_AVLTree: phony 02_TreeStructrue/04_AVLTree.exe
 
 build 04_AVLTree.exe: phony 02_TreeStructrue/04_AVLTree.exe
 
+build 05_QuickFindSet: phony 02_TreeStructrue/05_UnionFindSet/05_QuickFindSet.exe
+
+build 05_QuickFindSet.exe: phony 02_TreeStructrue/05_UnionFindSet/05_QuickFindSet.exe
+
+build 06_QuickUnionSet: phony 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe
+
+build 06_QuickUnionSet.exe: phony 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -281,7 +395,14 @@ build all: phony 02_TreeStructrue/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue
 
-build 02_TreeStructrue/all: phony 02_TreeStructrue/01_BinaryTree.exe 02_TreeStructrue/02_InorderThreadedBinaryTree.exe 02_TreeStructrue/03_BinarySearchTree.exe 02_TreeStructrue/04_AVLTree.exe
+build 02_TreeStructrue/all: phony 02_TreeStructrue/01_BinaryTree.exe 02_TreeStructrue/02_InorderThreadedBinaryTree.exe 02_TreeStructrue/03_BinarySearchTree.exe 02_TreeStructrue/04_AVLTree.exe 02_TreeStructrue/05_UnionFindSet/all
+
+# =============================================================================
+
+#############################################
+# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/05_UnionFindSet
+
+build 02_TreeStructrue/05_UnionFindSet/all: phony 02_TreeStructrue/05_UnionFindSet/05_QuickFindSet.exe 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe
 
 # =============================================================================
 # Built-in targets
@@ -290,14 +411,14 @@ build 02_TreeStructrue/all: phony 02_TreeStructrue/01_BinaryTree.exe 02_TreeStru
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

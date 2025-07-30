@@ -6,3 +6,5 @@ add_executable(02_InorderThreadedBinaryTree 02_InorderThreadedBinaryTree/Inorder
 add_executable(03_BinarySearchTree 03_BinarySearchTree/BinarySearchTree_main.c 03_BinarySearchTree/BinarySearchTree.c 03_BinarySearchTree/BinarySearchTree.h)
 
 add_executable(04_AVLTree 04_AVLTree/AVLTree_main.c 04_AVLTree/AVLTree.c 04_AVLTree/AVLTree.h)
+
+add_subdirectory(05_UnionFindSet)

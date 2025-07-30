@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/25804/Desktop/data structure/data-structure---c/02_TreeStructrue
+# Install script for directory: C:/Users/25804/Desktop/data structure/data-structure---c/02_TreeStructrue/05_UnionFindSet
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,11 +35,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "D:/mingw-gcc/mingw64/bin/objdump.exe")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/05_UnionFindSet/cmake_install.cmake")
-
 endif()
 

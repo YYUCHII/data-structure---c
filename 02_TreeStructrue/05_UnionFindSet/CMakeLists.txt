@@ -1,0 +1,3 @@
+add_executable(05_QuickFindSet 05_QuickFindSet/QuickFindSet_main.c 05_QuickFindSet/QuickFindSet.c 05_QuickFindSet/QuickFindSet.h )
+
+add_executable(06_QuickUnionSet 06_QuickUnionSet/QuickUnionSet_main.c 06_QuickUnionSet/QuickUnionSet.c 06_QuickUnionSet/QuickUnionSet.h)

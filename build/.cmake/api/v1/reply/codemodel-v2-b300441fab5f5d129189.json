@@ -20,6 +20,10 @@
 				},
 				{
 					"build" : "02_TreeStructrue",
+					"childIndexes" : 
+					[
+						2
+					],
 					"jsonFile" : "directory-02_TreeStructrue-Debug-3d2f09e237eadab7579c.json",
 					"minimumCMakeVersion" : 
 					{
@@ -35,6 +39,22 @@
 						2,
 						3
 					]
+				},
+				{
+					"build" : "02_TreeStructrue/05_UnionFindSet",
+					"jsonFile" : "directory-02_TreeStructrue.05_UnionFindSet-Debug-329bd4c82cacdae2a8e9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "02_TreeStructrue/05_UnionFindSet",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
 				}
 			],
 			"name" : "Debug",
@@ -44,7 +64,8 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "DSLearnC",
 					"targetIndexes" : 
@@ -52,7 +73,9 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						4,
+						5
 					]
 				}
 			],
@@ -84,6 +107,20 @@
 					"id" : "04_AVLTree::@80cae793418fd112e36b",
 					"jsonFile" : "target-04_AVLTree-Debug-30391de09c0606d9535c.json",
 					"name" : "04_AVLTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "05_QuickFindSet::@b6602a7e01dcedfb5031",
+					"jsonFile" : "target-05_QuickFindSet-Debug-1bb56f0a9081566012a9.json",
+					"name" : "05_QuickFindSet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "06_QuickUnionSet::@b6602a7e01dcedfb5031",
+					"jsonFile" : "target-06_QuickUnionSet-Debug-995604b3211adb230154.json",
+					"name" : "06_QuickUnionSet",
 					"projectIndex" : 0
 				}
 			]

@@ -6,3 +6,7 @@ C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/04_AVLTree.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/edit_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/rebuild_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/05_UnionFindSet/CMakeFiles/edit_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/05_UnionFindSet/CMakeFiles/rebuild_cache.dir
