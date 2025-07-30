@@ -38,3 +38,9 @@
 85	176	7753279322456477	01_LinearStructure/02_LinkedList/04_DoubleCircularLinkedList.exe	1a8af3ec08272c03
 16	88	7753883542377073	01_LinearStructure/04_Queue/CMakeFiles/08_LinkedQueue.dir/02_LinkedQueue/LinkedQueue_main.c.obj	bd195709b7511c67
 18	87	7753785307827402	01_LinearStructure/03_Stack/CMakeFiles/05_SequenceStack.dir/01_SequenceStack/SequenceStack_main.c.obj	a5815bc0c24b4e18
+2	106	7755838992627145	02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet_main.c.obj	35ff15fe445c83e2
+6	107	7755838992785020	02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet.c.obj	f3a06c2eb0a8ac3
+107	222	7755838993765025	02_TreeStructrue/05_UnionFindSet/05_QuickFindSet.exe	7ea9bfad74e2a2ae
+13	88	7755850931761467	02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet_main.c.obj	90d7de4116665f28
+18	91	7755850931815235	02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet.c.obj	9b7f10357fc637c0
+91	184	7755850932543816	02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe	63c315e3d08bb12
