@@ -3,5 +3,6 @@ C:/Users/25804/Desktop/data structure/data-structure---c/build/CMakeFiles/rebuil
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/01_BinaryTree.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/03_BinarySearchTree.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/04_AVLTree.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/edit_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/CMakeFiles/rebuild_cache.dir

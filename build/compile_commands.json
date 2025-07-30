@@ -34,5 +34,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree.c",
   "output": "02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\04_AVLTree.dir\\04_AVLTree\\AVLTree_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\04_AVLTree\\AVLTree_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\04_AVLTree\\AVLTree_main.c",
+  "output": "02_TreeStructrue\\CMakeFiles\\04_AVLTree.dir\\04_AVLTree\\AVLTree_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\04_AVLTree.dir\\04_AVLTree\\AVLTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\04_AVLTree\\AVLTree.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\04_AVLTree\\AVLTree.c",
+  "output": "02_TreeStructrue\\CMakeFiles\\04_AVLTree.dir\\04_AVLTree\\AVLTree.c.obj"
 }
 ]

@@ -32,7 +32,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -50,7 +51,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -75,6 +77,13 @@
 					"id" : "03_BinarySearchTree::@80cae793418fd112e36b",
 					"jsonFile" : "target-03_BinarySearchTree-Debug-b906747d57cf46c7f952.json",
 					"name" : "03_BinarySearchTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "04_AVLTree::@80cae793418fd112e36b",
+					"jsonFile" : "target-04_AVLTree-Debug-30391de09c0606d9535c.json",
+					"name" : "04_AVLTree",
 					"projectIndex" : 0
 				}
 			]

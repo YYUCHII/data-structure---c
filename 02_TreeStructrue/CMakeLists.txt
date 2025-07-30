@@ -4,3 +4,5 @@ add_executable(02_InorderThreadedBinaryTree 02_InorderThreadedBinaryTree/Inorder
 02_InorderThreadedBinaryTree/InorderThreadedBinaryTree.h)
 
 add_executable(03_BinarySearchTree 03_BinarySearchTree/BinarySearchTree_main.c 03_BinarySearchTree/BinarySearchTree.c 03_BinarySearchTree/BinarySearchTree.h)
+
+add_executable(04_AVLTree 04_AVLTree/AVLTree_main.c 04_AVLTree/AVLTree.c 04_AVLTree/AVLTree.h)
