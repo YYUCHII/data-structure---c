@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "02_TreeStructrue/05_UnionFindSet",
-		"source" : "02_TreeStructrue/05_UnionFindSet"
+		"build" : "03_GraphStructure",
+		"source" : "03_GraphStructure"
 	}
 }

@@ -1,0 +1,1 @@
+add_executable(01_MatrixGraph 01_MatrixGraph/MatrixGraph_main.c 01_MatrixGraph/MatrixGraph.c 01_MatrixGraph/MatrixGraph.h)

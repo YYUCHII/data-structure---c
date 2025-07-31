@@ -151,10 +151,7 @@
 			"path" : "D:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "02_TreeStructrue/CMakeLists.txt"
-		},
-		{
-			"path" : "02_TreeStructrue/05_UnionFindSet/CMakeLists.txt"
+			"path" : "03_GraphStructure/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

@@ -69,359 +69,73 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 01_BinaryTree
+# Object build statements for EXECUTABLE target 01_MatrixGraph
 
 
 #############################################
-# Order-only phony target for 01_BinaryTree
+# Order-only phony target for 01_MatrixGraph
 
-build cmake_object_order_depends_target_01_BinaryTree: phony || .
+build cmake_object_order_depends_target_01_MatrixGraph: phony || .
 
-build 02_TreeStructrue/CMakeFiles/01_BinaryTree.dir/01_BinaryTree/BinaryTree_main.c.obj: C_COMPILER__01_BinaryTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/01_BinaryTree/BinaryTree_main.c || cmake_object_order_depends_target_01_BinaryTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir\01_BinaryTree\BinaryTree_main.c.obj.d
+build 03_GraphStructure/CMakeFiles/01_MatrixGraph.dir/01_MatrixGraph/MatrixGraph_main.c.obj: C_COMPILER__01_MatrixGraph_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/01_MatrixGraph/MatrixGraph_main.c || cmake_object_order_depends_target_01_MatrixGraph
+  DEP_FILE = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir\01_MatrixGraph\MatrixGraph_main.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir\01_BinaryTree
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir\01_MatrixGraph
 
-build 02_TreeStructrue/CMakeFiles/01_BinaryTree.dir/01_BinaryTree/BinaryTree.c.obj: C_COMPILER__01_BinaryTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/01_BinaryTree/BinaryTree.c || cmake_object_order_depends_target_01_BinaryTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir\01_BinaryTree\BinaryTree.c.obj.d
+build 03_GraphStructure/CMakeFiles/01_MatrixGraph.dir/01_MatrixGraph/MatrixGraph.c.obj: C_COMPILER__01_MatrixGraph_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/01_MatrixGraph/MatrixGraph.c || cmake_object_order_depends_target_01_MatrixGraph
+  DEP_FILE = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir\01_MatrixGraph\MatrixGraph.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir\01_BinaryTree
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir\01_MatrixGraph
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 01_BinaryTree
+# Link build statements for EXECUTABLE target 01_MatrixGraph
 
 
 #############################################
-# Link the executable 02_TreeStructrue\01_BinaryTree.exe
+# Link the executable 03_GraphStructure\01_MatrixGraph.exe
 
-build 02_TreeStructrue/01_BinaryTree.exe: C_EXECUTABLE_LINKER__01_BinaryTree_Debug 02_TreeStructrue/CMakeFiles/01_BinaryTree.dir/01_BinaryTree/BinaryTree_main.c.obj 02_TreeStructrue/CMakeFiles/01_BinaryTree.dir/01_BinaryTree/BinaryTree.c.obj
+build 03_GraphStructure/01_MatrixGraph.exe: C_EXECUTABLE_LINKER__01_MatrixGraph_Debug 03_GraphStructure/CMakeFiles/01_MatrixGraph.dir/01_MatrixGraph/MatrixGraph_main.c.obj 03_GraphStructure/CMakeFiles/01_MatrixGraph.dir/01_MatrixGraph/MatrixGraph.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\01_BinaryTree.dir
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 02_TreeStructrue\01_BinaryTree.exe
-  TARGET_IMPLIB = 02_TreeStructrue\lib01_BinaryTree.dll.a
-  TARGET_PDB = 01_BinaryTree.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 02_InorderThreadedBinaryTree
-
-
-#############################################
-# Order-only phony target for 02_InorderThreadedBinaryTree
-
-build cmake_object_order_depends_target_02_InorderThreadedBinaryTree: phony || .
-
-build 02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree_main.c.obj: C_COMPILER__02_InorderThreadedBinaryTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree_main.c || cmake_object_order_depends_target_02_InorderThreadedBinaryTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir\02_InorderThreadedBinaryTree\InorderThreadedBinaryTree_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir\02_InorderThreadedBinaryTree
-
-build 02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree.c.obj: C_COMPILER__02_InorderThreadedBinaryTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree.c || cmake_object_order_depends_target_02_InorderThreadedBinaryTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir\02_InorderThreadedBinaryTree\InorderThreadedBinaryTree.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir\02_InorderThreadedBinaryTree
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 02_InorderThreadedBinaryTree
-
-
-#############################################
-# Link the executable 02_TreeStructrue\02_InorderThreadedBinaryTree.exe
-
-build 02_TreeStructrue/02_InorderThreadedBinaryTree.exe: C_EXECUTABLE_LINKER__02_InorderThreadedBinaryTree_Debug 02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree_main.c.obj 02_TreeStructrue/CMakeFiles/02_InorderThreadedBinaryTree.dir/02_InorderThreadedBinaryTree/InorderThreadedBinaryTree.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\02_InorderThreadedBinaryTree.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 02_TreeStructrue\02_InorderThreadedBinaryTree.exe
-  TARGET_IMPLIB = 02_TreeStructrue\lib02_InorderThreadedBinaryTree.dll.a
-  TARGET_PDB = 02_InorderThreadedBinaryTree.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 03_BinarySearchTree
-
-
-#############################################
-# Order-only phony target for 03_BinarySearchTree
-
-build cmake_object_order_depends_target_03_BinarySearchTree: phony || .
-
-build 02_TreeStructrue/CMakeFiles/03_BinarySearchTree.dir/03_BinarySearchTree/BinarySearchTree_main.c.obj: C_COMPILER__03_BinarySearchTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/03_BinarySearchTree/BinarySearchTree_main.c || cmake_object_order_depends_target_03_BinarySearchTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\03_BinarySearchTree.dir\03_BinarySearchTree\BinarySearchTree_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\03_BinarySearchTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\03_BinarySearchTree.dir\03_BinarySearchTree
-
-build 02_TreeStructrue/CMakeFiles/03_BinarySearchTree.dir/03_BinarySearchTree/BinarySearchTree.c.obj: C_COMPILER__03_BinarySearchTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/03_BinarySearchTree/BinarySearchTree.c || cmake_object_order_depends_target_03_BinarySearchTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\03_BinarySearchTree.dir\03_BinarySearchTree\BinarySearchTree.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\03_BinarySearchTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\03_BinarySearchTree.dir\03_BinarySearchTree
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 03_BinarySearchTree
-
-
-#############################################
-# Link the executable 02_TreeStructrue\03_BinarySearchTree.exe
-
-build 02_TreeStructrue/03_BinarySearchTree.exe: C_EXECUTABLE_LINKER__03_BinarySearchTree_Debug 02_TreeStructrue/CMakeFiles/03_BinarySearchTree.dir/03_BinarySearchTree/BinarySearchTree_main.c.obj 02_TreeStructrue/CMakeFiles/03_BinarySearchTree.dir/03_BinarySearchTree/BinarySearchTree.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\03_BinarySearchTree.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 02_TreeStructrue\03_BinarySearchTree.exe
-  TARGET_IMPLIB = 02_TreeStructrue\lib03_BinarySearchTree.dll.a
-  TARGET_PDB = 03_BinarySearchTree.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 04_AVLTree
-
-
-#############################################
-# Order-only phony target for 04_AVLTree
-
-build cmake_object_order_depends_target_04_AVLTree: phony || .
-
-build 02_TreeStructrue/CMakeFiles/04_AVLTree.dir/04_AVLTree/AVLTree_main.c.obj: C_COMPILER__04_AVLTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/04_AVLTree/AVLTree_main.c || cmake_object_order_depends_target_04_AVLTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\04_AVLTree.dir\04_AVLTree\AVLTree_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\04_AVLTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\04_AVLTree.dir\04_AVLTree
-
-build 02_TreeStructrue/CMakeFiles/04_AVLTree.dir/04_AVLTree/AVLTree.c.obj: C_COMPILER__04_AVLTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/04_AVLTree/AVLTree.c || cmake_object_order_depends_target_04_AVLTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\04_AVLTree.dir\04_AVLTree\AVLTree.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\04_AVLTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\04_AVLTree.dir\04_AVLTree
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 04_AVLTree
-
-
-#############################################
-# Link the executable 02_TreeStructrue\04_AVLTree.exe
-
-build 02_TreeStructrue/04_AVLTree.exe: C_EXECUTABLE_LINKER__04_AVLTree_Debug 02_TreeStructrue/CMakeFiles/04_AVLTree.dir/04_AVLTree/AVLTree_main.c.obj 02_TreeStructrue/CMakeFiles/04_AVLTree.dir/04_AVLTree/AVLTree.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\04_AVLTree.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 02_TreeStructrue\04_AVLTree.exe
-  TARGET_IMPLIB = 02_TreeStructrue\lib04_AVLTree.dll.a
-  TARGET_PDB = 04_AVLTree.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 07_HuffmanTree
-
-
-#############################################
-# Order-only phony target for 07_HuffmanTree
-
-build cmake_object_order_depends_target_07_HuffmanTree: phony || .
-
-build 02_TreeStructrue/CMakeFiles/07_HuffmanTree.dir/06_HuffmanTree/HuffmanTree_main.c.obj: C_COMPILER__07_HuffmanTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/06_HuffmanTree/HuffmanTree_main.c || cmake_object_order_depends_target_07_HuffmanTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir\06_HuffmanTree\HuffmanTree_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir\06_HuffmanTree
-
-build 02_TreeStructrue/CMakeFiles/07_HuffmanTree.dir/06_HuffmanTree/HuffmanTree.c.obj: C_COMPILER__07_HuffmanTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/06_HuffmanTree/HuffmanTree.c || cmake_object_order_depends_target_07_HuffmanTree
-  DEP_FILE = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir\06_HuffmanTree\HuffmanTree.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir\06_HuffmanTree
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 07_HuffmanTree
-
-
-#############################################
-# Link the executable 02_TreeStructrue\07_HuffmanTree.exe
-
-build 02_TreeStructrue/07_HuffmanTree.exe: C_EXECUTABLE_LINKER__07_HuffmanTree_Debug 02_TreeStructrue/CMakeFiles/07_HuffmanTree.dir/06_HuffmanTree/HuffmanTree_main.c.obj 02_TreeStructrue/CMakeFiles/07_HuffmanTree.dir/06_HuffmanTree/HuffmanTree.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 02_TreeStructrue\07_HuffmanTree.exe
-  TARGET_IMPLIB = 02_TreeStructrue\lib07_HuffmanTree.dll.a
-  TARGET_PDB = 07_HuffmanTree.exe.dbg
+  TARGET_FILE = 03_GraphStructure\01_MatrixGraph.exe
+  TARGET_IMPLIB = 03_GraphStructure\lib01_MatrixGraph.dll.a
+  TARGET_PDB = 01_MatrixGraph.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build 02_TreeStructrue/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\02_TreeStructrue" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build 03_GraphStructure/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\03_GraphStructure" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build 02_TreeStructrue/edit_cache: phony 02_TreeStructrue/CMakeFiles/edit_cache.util
+build 03_GraphStructure/edit_cache: phony 03_GraphStructure/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build 02_TreeStructrue/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\02_TreeStructrue" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
+build 03_GraphStructure/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\03_GraphStructure" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build 02_TreeStructrue/rebuild_cache: phony 02_TreeStructrue/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/25804/Desktop/data structure/data-structure---c/02_TreeStructrue/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 05_QuickFindSet
-
-
-#############################################
-# Order-only phony target for 05_QuickFindSet
-
-build cmake_object_order_depends_target_05_QuickFindSet: phony || .
-
-build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet_main.c.obj: C_COMPILER__05_QuickFindSet_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/05_QuickFindSet/QuickFindSet_main.c || cmake_object_order_depends_target_05_QuickFindSet
-  DEP_FILE = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir\05_QuickFindSet\QuickFindSet_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir\05_QuickFindSet
-
-build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet.c.obj: C_COMPILER__05_QuickFindSet_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/05_QuickFindSet/QuickFindSet.c || cmake_object_order_depends_target_05_QuickFindSet
-  DEP_FILE = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir\05_QuickFindSet\QuickFindSet.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir\05_QuickFindSet
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 05_QuickFindSet
-
-
-#############################################
-# Link the executable 02_TreeStructrue\05_UnionFindSet\05_QuickFindSet.exe
-
-build 02_TreeStructrue/05_UnionFindSet/05_QuickFindSet.exe: C_EXECUTABLE_LINKER__05_QuickFindSet_Debug 02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet_main.c.obj 02_TreeStructrue/05_UnionFindSet/CMakeFiles/05_QuickFindSet.dir/05_QuickFindSet/QuickFindSet.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\05_QuickFindSet.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 02_TreeStructrue\05_UnionFindSet\05_QuickFindSet.exe
-  TARGET_IMPLIB = 02_TreeStructrue\05_UnionFindSet\lib05_QuickFindSet.dll.a
-  TARGET_PDB = 05_QuickFindSet.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 06_QuickUnionSet
-
-
-#############################################
-# Order-only phony target for 06_QuickUnionSet
-
-build cmake_object_order_depends_target_06_QuickUnionSet: phony || .
-
-build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet_main.c.obj: C_COMPILER__06_QuickUnionSet_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet/QuickUnionSet_main.c || cmake_object_order_depends_target_06_QuickUnionSet
-  DEP_FILE = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir\06_QuickUnionSet\QuickUnionSet_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir\06_QuickUnionSet
-
-build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet.c.obj: C_COMPILER__06_QuickUnionSet_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet/QuickUnionSet.c || cmake_object_order_depends_target_06_QuickUnionSet
-  DEP_FILE = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir\06_QuickUnionSet\QuickUnionSet.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir
-  OBJECT_FILE_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir\06_QuickUnionSet
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 06_QuickUnionSet
-
-
-#############################################
-# Link the executable 02_TreeStructrue\05_UnionFindSet\06_QuickUnionSet.exe
-
-build 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe: C_EXECUTABLE_LINKER__06_QuickUnionSet_Debug 02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet_main.c.obj 02_TreeStructrue/05_UnionFindSet/CMakeFiles/06_QuickUnionSet.dir/06_QuickUnionSet/QuickUnionSet.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 02_TreeStructrue\05_UnionFindSet\CMakeFiles\06_QuickUnionSet.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 02_TreeStructrue\05_UnionFindSet\06_QuickUnionSet.exe
-  TARGET_IMPLIB = 02_TreeStructrue\05_UnionFindSet\lib06_QuickUnionSet.dll.a
-  TARGET_PDB = 06_QuickUnionSet.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\02_TreeStructrue\05_UnionFindSet" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build 02_TreeStructrue/05_UnionFindSet/edit_cache: phony 02_TreeStructrue/05_UnionFindSet/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build 02_TreeStructrue/05_UnionFindSet/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\02_TreeStructrue\05_UnionFindSet" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build 02_TreeStructrue/05_UnionFindSet/rebuild_cache: phony 02_TreeStructrue/05_UnionFindSet/CMakeFiles/rebuild_cache.util
+build 03_GraphStructure/rebuild_cache: phony 03_GraphStructure/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build 01_BinaryTree: phony 02_TreeStructrue/01_BinaryTree.exe
+build 01_MatrixGraph: phony 03_GraphStructure/01_MatrixGraph.exe
 
-build 01_BinaryTree.exe: phony 02_TreeStructrue/01_BinaryTree.exe
-
-build 02_InorderThreadedBinaryTree: phony 02_TreeStructrue/02_InorderThreadedBinaryTree.exe
-
-build 02_InorderThreadedBinaryTree.exe: phony 02_TreeStructrue/02_InorderThreadedBinaryTree.exe
-
-build 03_BinarySearchTree: phony 02_TreeStructrue/03_BinarySearchTree.exe
-
-build 03_BinarySearchTree.exe: phony 02_TreeStructrue/03_BinarySearchTree.exe
-
-build 04_AVLTree: phony 02_TreeStructrue/04_AVLTree.exe
-
-build 04_AVLTree.exe: phony 02_TreeStructrue/04_AVLTree.exe
-
-build 05_QuickFindSet: phony 02_TreeStructrue/05_UnionFindSet/05_QuickFindSet.exe
-
-build 05_QuickFindSet.exe: phony 02_TreeStructrue/05_UnionFindSet/05_QuickFindSet.exe
-
-build 06_QuickUnionSet: phony 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe
-
-build 06_QuickUnionSet.exe: phony 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe
-
-build 07_HuffmanTree: phony 02_TreeStructrue/07_HuffmanTree.exe
-
-build 07_HuffmanTree.exe: phony 02_TreeStructrue/07_HuffmanTree.exe
+build 01_MatrixGraph.exe: phony 03_GraphStructure/01_MatrixGraph.exe
 
 # =============================================================================
 # Folder targets.
@@ -431,21 +145,14 @@ build 07_HuffmanTree.exe: phony 02_TreeStructrue/07_HuffmanTree.exe
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build
 
-build all: phony 02_TreeStructrue/all
+build all: phony 03_GraphStructure/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue
+# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure
 
-build 02_TreeStructrue/all: phony 02_TreeStructrue/01_BinaryTree.exe 02_TreeStructrue/02_InorderThreadedBinaryTree.exe 02_TreeStructrue/03_BinarySearchTree.exe 02_TreeStructrue/04_AVLTree.exe 02_TreeStructrue/07_HuffmanTree.exe 02_TreeStructrue/05_UnionFindSet/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue/05_UnionFindSet
-
-build 02_TreeStructrue/05_UnionFindSet/all: phony 02_TreeStructrue/05_UnionFindSet/05_QuickFindSet.exe 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe
+build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe
 
 # =============================================================================
 # Built-in targets
@@ -454,14 +161,14 @@ build 02_TreeStructrue/05_UnionFindSet/all: phony 02_TreeStructrue/05_UnionFindS
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/05_UnionFindSet/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################

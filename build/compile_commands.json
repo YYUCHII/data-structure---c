@@ -1,86 +1,14 @@
 [
 {
   "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\01_BinaryTree.dir\\01_BinaryTree\\BinaryTree_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\01_BinaryTree\\BinaryTree_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\01_BinaryTree\\BinaryTree_main.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\01_BinaryTree.dir\\01_BinaryTree\\BinaryTree_main.c.obj"
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 03_GraphStructure\\CMakeFiles\\01_MatrixGraph.dir\\01_MatrixGraph\\MatrixGraph_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\01_MatrixGraph\\MatrixGraph_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\01_MatrixGraph\\MatrixGraph_main.c",
+  "output": "03_GraphStructure\\CMakeFiles\\01_MatrixGraph.dir\\01_MatrixGraph\\MatrixGraph_main.c.obj"
 },
 {
   "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\01_BinaryTree.dir\\01_BinaryTree\\BinaryTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\01_BinaryTree\\BinaryTree.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\01_BinaryTree\\BinaryTree.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\01_BinaryTree.dir\\01_BinaryTree\\BinaryTree.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\02_InorderThreadedBinaryTree.dir\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree_main.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\02_InorderThreadedBinaryTree.dir\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\02_InorderThreadedBinaryTree.dir\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\02_InorderThreadedBinaryTree.dir\\02_InorderThreadedBinaryTree\\InorderThreadedBinaryTree.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree_main.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\03_BinarySearchTree\\BinarySearchTree.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\03_BinarySearchTree.dir\\03_BinarySearchTree\\BinarySearchTree.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\04_AVLTree.dir\\04_AVLTree\\AVLTree_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\04_AVLTree\\AVLTree_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\04_AVLTree\\AVLTree_main.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\04_AVLTree.dir\\04_AVLTree\\AVLTree_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\04_AVLTree.dir\\04_AVLTree\\AVLTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\04_AVLTree\\AVLTree.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\04_AVLTree\\AVLTree.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\04_AVLTree.dir\\04_AVLTree\\AVLTree.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\07_HuffmanTree.dir\\06_HuffmanTree\\HuffmanTree_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\06_HuffmanTree\\HuffmanTree_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\06_HuffmanTree\\HuffmanTree_main.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\07_HuffmanTree.dir\\06_HuffmanTree\\HuffmanTree_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\07_HuffmanTree.dir\\06_HuffmanTree\\HuffmanTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\06_HuffmanTree\\HuffmanTree.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\06_HuffmanTree\\HuffmanTree.c",
-  "output": "02_TreeStructrue\\CMakeFiles\\07_HuffmanTree.dir\\06_HuffmanTree\\HuffmanTree.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\05_QuickFindSet.dir\\05_QuickFindSet\\QuickFindSet_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\05_QuickFindSet\\QuickFindSet_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\05_QuickFindSet\\QuickFindSet_main.c",
-  "output": "02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\05_QuickFindSet.dir\\05_QuickFindSet\\QuickFindSet_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\05_QuickFindSet.dir\\05_QuickFindSet\\QuickFindSet.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\05_QuickFindSet\\QuickFindSet.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\05_QuickFindSet\\QuickFindSet.c",
-  "output": "02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\05_QuickFindSet.dir\\05_QuickFindSet\\QuickFindSet.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\06_QuickUnionSet.dir\\06_QuickUnionSet\\QuickUnionSet_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\06_QuickUnionSet\\QuickUnionSet_main.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\06_QuickUnionSet\\QuickUnionSet_main.c",
-  "output": "02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\06_QuickUnionSet.dir\\06_QuickUnionSet\\QuickUnionSet_main.c.obj"
-},
-{
-  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\06_QuickUnionSet.dir\\06_QuickUnionSet\\QuickUnionSet.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\06_QuickUnionSet\\QuickUnionSet.c\"",
-  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\06_QuickUnionSet\\QuickUnionSet.c",
-  "output": "02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\06_QuickUnionSet.dir\\06_QuickUnionSet\\QuickUnionSet.c.obj"
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 03_GraphStructure\\CMakeFiles\\01_MatrixGraph.dir\\01_MatrixGraph\\MatrixGraph.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\01_MatrixGraph\\MatrixGraph.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\01_MatrixGraph\\MatrixGraph.c",
+  "output": "03_GraphStructure\\CMakeFiles\\01_MatrixGraph.dir\\01_MatrixGraph\\MatrixGraph.c.obj"
 }
 ]
