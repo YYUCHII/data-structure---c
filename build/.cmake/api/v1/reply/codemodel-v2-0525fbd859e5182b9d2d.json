@@ -37,7 +37,8 @@
 						0,
 						1,
 						2,
-						3
+						3,
+						6
 					]
 				},
 				{
@@ -75,7 +76,8 @@
 						2,
 						3,
 						4,
-						5
+						5,
+						6
 					]
 				}
 			],
@@ -121,6 +123,13 @@
 					"id" : "06_QuickUnionSet::@b6602a7e01dcedfb5031",
 					"jsonFile" : "target-06_QuickUnionSet-Debug-995604b3211adb230154.json",
 					"name" : "06_QuickUnionSet",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "07_HuffmanTree::@80cae793418fd112e36b",
+					"jsonFile" : "target-07_HuffmanTree-Debug-974bde66d14026cff0b9.json",
+					"name" : "07_HuffmanTree",
 					"projectIndex" : 0
 				}
 			]

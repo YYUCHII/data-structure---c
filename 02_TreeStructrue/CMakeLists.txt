@@ -8,3 +8,5 @@ add_executable(03_BinarySearchTree 03_BinarySearchTree/BinarySearchTree_main.c 0
 add_executable(04_AVLTree 04_AVLTree/AVLTree_main.c 04_AVLTree/AVLTree.c 04_AVLTree/AVLTree.h)
 
 add_subdirectory(05_UnionFindSet)
+
+add_executable(07_HuffmanTree 06_HuffmanTree/HuffmanTree_main.c 06_HuffmanTree/HuffmanTree.c 06_HuffmanTree/HuffmanTree.h)

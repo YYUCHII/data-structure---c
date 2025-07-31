@@ -49,6 +49,18 @@
 },
 {
   "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\07_HuffmanTree.dir\\06_HuffmanTree\\HuffmanTree_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\06_HuffmanTree\\HuffmanTree_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\06_HuffmanTree\\HuffmanTree_main.c",
+  "output": "02_TreeStructrue\\CMakeFiles\\07_HuffmanTree.dir\\06_HuffmanTree\\HuffmanTree_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\CMakeFiles\\07_HuffmanTree.dir\\06_HuffmanTree\\HuffmanTree.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\06_HuffmanTree\\HuffmanTree.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\06_HuffmanTree\\HuffmanTree.c",
+  "output": "02_TreeStructrue\\CMakeFiles\\07_HuffmanTree.dir\\06_HuffmanTree\\HuffmanTree.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\05_QuickFindSet.dir\\05_QuickFindSet\\QuickFindSet_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\05_QuickFindSet\\QuickFindSet_main.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\02_TreeStructrue\\05_UnionFindSet\\05_QuickFindSet\\QuickFindSet_main.c",
   "output": "02_TreeStructrue\\05_UnionFindSet\\CMakeFiles\\05_QuickFindSet.dir\\05_QuickFindSet\\QuickFindSet_main.c.obj"

@@ -224,6 +224,45 @@ build 02_TreeStructrue/04_AVLTree.exe: C_EXECUTABLE_LINKER__04_AVLTree_Debug 02_
   TARGET_IMPLIB = 02_TreeStructrue\lib04_AVLTree.dll.a
   TARGET_PDB = 04_AVLTree.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 07_HuffmanTree
+
+
+#############################################
+# Order-only phony target for 07_HuffmanTree
+
+build cmake_object_order_depends_target_07_HuffmanTree: phony || .
+
+build 02_TreeStructrue/CMakeFiles/07_HuffmanTree.dir/06_HuffmanTree/HuffmanTree_main.c.obj: C_COMPILER__07_HuffmanTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/06_HuffmanTree/HuffmanTree_main.c || cmake_object_order_depends_target_07_HuffmanTree
+  DEP_FILE = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir\06_HuffmanTree\HuffmanTree_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir\06_HuffmanTree
+
+build 02_TreeStructrue/CMakeFiles/07_HuffmanTree.dir/06_HuffmanTree/HuffmanTree.c.obj: C_COMPILER__07_HuffmanTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/02_TreeStructrue/06_HuffmanTree/HuffmanTree.c || cmake_object_order_depends_target_07_HuffmanTree
+  DEP_FILE = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir\06_HuffmanTree\HuffmanTree.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir
+  OBJECT_FILE_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir\06_HuffmanTree
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07_HuffmanTree
+
+
+#############################################
+# Link the executable 02_TreeStructrue\07_HuffmanTree.exe
+
+build 02_TreeStructrue/07_HuffmanTree.exe: C_EXECUTABLE_LINKER__07_HuffmanTree_Debug 02_TreeStructrue/CMakeFiles/07_HuffmanTree.dir/06_HuffmanTree/HuffmanTree_main.c.obj 02_TreeStructrue/CMakeFiles/07_HuffmanTree.dir/06_HuffmanTree/HuffmanTree.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 02_TreeStructrue\CMakeFiles\07_HuffmanTree.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 02_TreeStructrue\07_HuffmanTree.exe
+  TARGET_IMPLIB = 02_TreeStructrue\lib07_HuffmanTree.dll.a
+  TARGET_PDB = 07_HuffmanTree.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -380,6 +419,10 @@ build 06_QuickUnionSet: phony 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.
 
 build 06_QuickUnionSet.exe: phony 02_TreeStructrue/05_UnionFindSet/06_QuickUnionSet.exe
 
+build 07_HuffmanTree: phony 02_TreeStructrue/07_HuffmanTree.exe
+
+build 07_HuffmanTree.exe: phony 02_TreeStructrue/07_HuffmanTree.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -395,7 +438,7 @@ build all: phony 02_TreeStructrue/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/02_TreeStructrue
 
-build 02_TreeStructrue/all: phony 02_TreeStructrue/01_BinaryTree.exe 02_TreeStructrue/02_InorderThreadedBinaryTree.exe 02_TreeStructrue/03_BinarySearchTree.exe 02_TreeStructrue/04_AVLTree.exe 02_TreeStructrue/05_UnionFindSet/all
+build 02_TreeStructrue/all: phony 02_TreeStructrue/01_BinaryTree.exe 02_TreeStructrue/02_InorderThreadedBinaryTree.exe 02_TreeStructrue/03_BinarySearchTree.exe 02_TreeStructrue/04_AVLTree.exe 02_TreeStructrue/07_HuffmanTree.exe 02_TreeStructrue/05_UnionFindSet/all
 
 # =============================================================================
 
