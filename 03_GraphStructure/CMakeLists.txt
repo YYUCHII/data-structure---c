@@ -1,1 +1,3 @@
 add_executable(01_MatrixGraph 01_MatrixGraph/MatrixGraph_main.c 01_MatrixGraph/MatrixGraph.c 01_MatrixGraph/MatrixGraph.h)
+
+add_executable(02_AdjacencyList 02_AdjacencyList/AdjacencyList_main.c 02_AdjacencyList/AdjacencyList.c 02_AdjacencyList/AdjacencyList.h)

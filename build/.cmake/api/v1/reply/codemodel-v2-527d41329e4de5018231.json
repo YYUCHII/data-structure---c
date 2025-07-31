@@ -30,7 +30,8 @@
 					"source" : "03_GraphStructure",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -46,7 +47,8 @@
 					"name" : "DSLearnC",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -57,6 +59,13 @@
 					"id" : "01_MatrixGraph::@e2fd1490ef4c5926be62",
 					"jsonFile" : "target-01_MatrixGraph-Debug-49aad59907f8e8f3f0cd.json",
 					"name" : "01_MatrixGraph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "02_AdjacencyList::@e2fd1490ef4c5926be62",
+					"jsonFile" : "target-02_AdjacencyList-Debug-a0623e85152489dc9e03.json",
+					"name" : "02_AdjacencyList",
 					"projectIndex" : 0
 				}
 			]

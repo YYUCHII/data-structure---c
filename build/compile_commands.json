@@ -10,5 +10,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 03_GraphStructure\\CMakeFiles\\01_MatrixGraph.dir\\01_MatrixGraph\\MatrixGraph.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\01_MatrixGraph\\MatrixGraph.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\01_MatrixGraph\\MatrixGraph.c",
   "output": "03_GraphStructure\\CMakeFiles\\01_MatrixGraph.dir\\01_MatrixGraph\\MatrixGraph.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 03_GraphStructure\\CMakeFiles\\02_AdjacencyList.dir\\02_AdjacencyList\\AdjacencyList_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\02_AdjacencyList\\AdjacencyList_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\02_AdjacencyList\\AdjacencyList_main.c",
+  "output": "03_GraphStructure\\CMakeFiles\\02_AdjacencyList.dir\\02_AdjacencyList\\AdjacencyList_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 03_GraphStructure\\CMakeFiles\\02_AdjacencyList.dir\\02_AdjacencyList\\AdjacencyList.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\02_AdjacencyList\\AdjacencyList.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\02_AdjacencyList\\AdjacencyList.c",
+  "output": "03_GraphStructure\\CMakeFiles\\02_AdjacencyList.dir\\02_AdjacencyList\\AdjacencyList.c.obj"
 }
 ]

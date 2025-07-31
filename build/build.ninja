@@ -107,6 +107,45 @@ build 03_GraphStructure/01_MatrixGraph.exe: C_EXECUTABLE_LINKER__01_MatrixGraph_
   TARGET_IMPLIB = 03_GraphStructure\lib01_MatrixGraph.dll.a
   TARGET_PDB = 01_MatrixGraph.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_AdjacencyList
+
+
+#############################################
+# Order-only phony target for 02_AdjacencyList
+
+build cmake_object_order_depends_target_02_AdjacencyList: phony || .
+
+build 03_GraphStructure/CMakeFiles/02_AdjacencyList.dir/02_AdjacencyList/AdjacencyList_main.c.obj: C_COMPILER__02_AdjacencyList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/02_AdjacencyList/AdjacencyList_main.c || cmake_object_order_depends_target_02_AdjacencyList
+  DEP_FILE = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir\02_AdjacencyList\AdjacencyList_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir\02_AdjacencyList
+
+build 03_GraphStructure/CMakeFiles/02_AdjacencyList.dir/02_AdjacencyList/AdjacencyList.c.obj: C_COMPILER__02_AdjacencyList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/02_AdjacencyList/AdjacencyList.c || cmake_object_order_depends_target_02_AdjacencyList
+  DEP_FILE = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir\02_AdjacencyList\AdjacencyList.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir\02_AdjacencyList
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_AdjacencyList
+
+
+#############################################
+# Link the executable 03_GraphStructure\02_AdjacencyList.exe
+
+build 03_GraphStructure/02_AdjacencyList.exe: C_EXECUTABLE_LINKER__02_AdjacencyList_Debug 03_GraphStructure/CMakeFiles/02_AdjacencyList.dir/02_AdjacencyList/AdjacencyList_main.c.obj 03_GraphStructure/CMakeFiles/02_AdjacencyList.dir/02_AdjacencyList/AdjacencyList.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_GraphStructure\02_AdjacencyList.exe
+  TARGET_IMPLIB = 03_GraphStructure\lib02_AdjacencyList.dll.a
+  TARGET_PDB = 02_AdjacencyList.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -137,6 +176,10 @@ build 01_MatrixGraph: phony 03_GraphStructure/01_MatrixGraph.exe
 
 build 01_MatrixGraph.exe: phony 03_GraphStructure/01_MatrixGraph.exe
 
+build 02_AdjacencyList: phony 03_GraphStructure/02_AdjacencyList.exe
+
+build 02_AdjacencyList.exe: phony 03_GraphStructure/02_AdjacencyList.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -152,7 +195,7 @@ build all: phony 03_GraphStructure/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure
 
-build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe
+build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe 03_GraphStructure/02_AdjacencyList.exe
 
 # =============================================================================
 # Built-in targets
