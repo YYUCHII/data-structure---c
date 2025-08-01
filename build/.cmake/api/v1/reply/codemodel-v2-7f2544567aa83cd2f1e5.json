@@ -50,7 +50,8 @@
 					"source" : "03_GraphStructure/03_MinTree",
 					"targetIndexes" : 
 					[
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -69,7 +70,8 @@
 					[
 						0,
 						1,
-						2
+						2,
+						3
 					]
 				}
 			],
@@ -94,6 +96,13 @@
 					"id" : "03_Kruskal_MinTree::@447fd9dbfad8f47ca95c",
 					"jsonFile" : "target-03_Kruskal_MinTree-Debug-cd3e362023b5d1e39c36.json",
 					"name" : "03_Kruskal_MinTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "04_Prim_MinTree::@447fd9dbfad8f47ca95c",
+					"jsonFile" : "target-04_Prim_MinTree-Debug-49d12459b4415f06e1a7.json",
+					"name" : "04_Prim_MinTree",
 					"projectIndex" : 0
 				}
 			]
