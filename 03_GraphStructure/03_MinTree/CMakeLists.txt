@@ -1,0 +1,1 @@
+add_executable(03_Kruskal_MinTree 01_Kruskal/Kruskal_main.c 01_Kruskal/Kruskal.c 01_Kruskal/Kruskal.h)

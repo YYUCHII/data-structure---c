@@ -152,6 +152,9 @@
 		},
 		{
 			"path" : "03_GraphStructure/CMakeLists.txt"
+		},
+		{
+			"path" : "03_GraphStructure/03_MinTree/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",

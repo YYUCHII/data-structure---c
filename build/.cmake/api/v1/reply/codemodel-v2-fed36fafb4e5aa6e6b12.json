@@ -20,6 +20,10 @@
 				},
 				{
 					"build" : "03_GraphStructure",
+					"childIndexes" : 
+					[
+						2
+					],
 					"jsonFile" : "directory-03_GraphStructure-Debug-c1bd8e0a295314bedec9.json",
 					"minimumCMakeVersion" : 
 					{
@@ -33,6 +37,21 @@
 						0,
 						1
 					]
+				},
+				{
+					"build" : "03_GraphStructure/03_MinTree",
+					"jsonFile" : "directory-03_GraphStructure.03_MinTree-Debug-a4bce95894faff678bb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "03_GraphStructure/03_MinTree",
+					"targetIndexes" : 
+					[
+						2
+					]
 				}
 			],
 			"name" : "Debug",
@@ -42,13 +61,15 @@
 					"directoryIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					],
 					"name" : "DSLearnC",
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -66,6 +87,13 @@
 					"id" : "02_AdjacencyList::@e2fd1490ef4c5926be62",
 					"jsonFile" : "target-02_AdjacencyList-Debug-a0623e85152489dc9e03.json",
 					"name" : "02_AdjacencyList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "03_Kruskal_MinTree::@447fd9dbfad8f47ca95c",
+					"jsonFile" : "target-03_Kruskal_MinTree-Debug-cd3e362023b5d1e39c36.json",
+					"name" : "03_Kruskal_MinTree",
 					"projectIndex" : 0
 				}
 			]

@@ -4,3 +4,6 @@ C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure
 C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure/CMakeFiles/02_AdjacencyList.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure/CMakeFiles/edit_cache.dir
 C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure/CMakeFiles/rebuild_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure/03_MinTree/CMakeFiles/03_Kruskal_MinTree.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure/03_MinTree/CMakeFiles/edit_cache.dir
+C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure/03_MinTree/CMakeFiles/rebuild_cache.dir
