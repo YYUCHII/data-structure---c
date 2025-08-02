@@ -146,6 +146,45 @@ build 03_GraphStructure/02_AdjacencyList.exe: C_EXECUTABLE_LINKER__02_AdjacencyL
   TARGET_IMPLIB = 03_GraphStructure\lib02_AdjacencyList.dll.a
   TARGET_PDB = 02_AdjacencyList.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 05_ShortPath
+
+
+#############################################
+# Order-only phony target for 05_ShortPath
+
+build cmake_object_order_depends_target_05_ShortPath: phony || .
+
+build 03_GraphStructure/CMakeFiles/05_ShortPath.dir/04_ShortPath/Dijkstra_main.c.obj: C_COMPILER__05_ShortPath_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/04_ShortPath/Dijkstra_main.c || cmake_object_order_depends_target_05_ShortPath
+  DEP_FILE = 03_GraphStructure\CMakeFiles\05_ShortPath.dir\04_ShortPath\Dijkstra_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir\04_ShortPath
+
+build 03_GraphStructure/CMakeFiles/05_ShortPath.dir/04_ShortPath/Dijkstra.c.obj: C_COMPILER__05_ShortPath_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/04_ShortPath/Dijkstra.c || cmake_object_order_depends_target_05_ShortPath
+  DEP_FILE = 03_GraphStructure\CMakeFiles\05_ShortPath.dir\04_ShortPath\Dijkstra.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir\04_ShortPath
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 05_ShortPath
+
+
+#############################################
+# Link the executable 03_GraphStructure\05_ShortPath.exe
+
+build 03_GraphStructure/05_ShortPath.exe: C_EXECUTABLE_LINKER__05_ShortPath_Debug 03_GraphStructure/CMakeFiles/05_ShortPath.dir/04_ShortPath/Dijkstra_main.c.obj 03_GraphStructure/CMakeFiles/05_ShortPath.dir/04_ShortPath/Dijkstra.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_GraphStructure\05_ShortPath.exe
+  TARGET_IMPLIB = 03_GraphStructure\lib05_ShortPath.dll.a
+  TARGET_PDB = 05_ShortPath.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -294,6 +333,10 @@ build 04_Prim_MinTree: phony 03_GraphStructure/03_MinTree/04_Prim_MinTree.exe
 
 build 04_Prim_MinTree.exe: phony 03_GraphStructure/03_MinTree/04_Prim_MinTree.exe
 
+build 05_ShortPath: phony 03_GraphStructure/05_ShortPath.exe
+
+build 05_ShortPath.exe: phony 03_GraphStructure/05_ShortPath.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -309,7 +352,7 @@ build all: phony 03_GraphStructure/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure
 
-build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe 03_GraphStructure/02_AdjacencyList.exe 03_GraphStructure/03_MinTree/all
+build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe 03_GraphStructure/02_AdjacencyList.exe 03_GraphStructure/05_ShortPath.exe 03_GraphStructure/03_MinTree/all
 
 # =============================================================================
 
