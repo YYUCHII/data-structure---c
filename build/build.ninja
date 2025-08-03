@@ -185,6 +185,45 @@ build 03_GraphStructure/05_ShortPath.exe: C_EXECUTABLE_LINKER__05_ShortPath_Debu
   TARGET_IMPLIB = 03_GraphStructure\lib05_ShortPath.dll.a
   TARGET_PDB = 05_ShortPath.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 06_TopologicalSort
+
+
+#############################################
+# Order-only phony target for 06_TopologicalSort
+
+build cmake_object_order_depends_target_06_TopologicalSort: phony || .
+
+build 03_GraphStructure/CMakeFiles/06_TopologicalSort.dir/05_TopologicalSort/TopologicalSort_main.c.obj: C_COMPILER__06_TopologicalSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/05_TopologicalSort/TopologicalSort_main.c || cmake_object_order_depends_target_06_TopologicalSort
+  DEP_FILE = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir\05_TopologicalSort\TopologicalSort_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir\05_TopologicalSort
+
+build 03_GraphStructure/CMakeFiles/06_TopologicalSort.dir/05_TopologicalSort/TopologicalSort.c.obj: C_COMPILER__06_TopologicalSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/05_TopologicalSort/TopologicalSort.c || cmake_object_order_depends_target_06_TopologicalSort
+  DEP_FILE = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir\05_TopologicalSort\TopologicalSort.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir\05_TopologicalSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 06_TopologicalSort
+
+
+#############################################
+# Link the executable 03_GraphStructure\06_TopologicalSort.exe
+
+build 03_GraphStructure/06_TopologicalSort.exe: C_EXECUTABLE_LINKER__06_TopologicalSort_Debug 03_GraphStructure/CMakeFiles/06_TopologicalSort.dir/05_TopologicalSort/TopologicalSort_main.c.obj 03_GraphStructure/CMakeFiles/06_TopologicalSort.dir/05_TopologicalSort/TopologicalSort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_GraphStructure\06_TopologicalSort.exe
+  TARGET_IMPLIB = 03_GraphStructure\lib06_TopologicalSort.dll.a
+  TARGET_PDB = 06_TopologicalSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -337,6 +376,10 @@ build 05_ShortPath: phony 03_GraphStructure/05_ShortPath.exe
 
 build 05_ShortPath.exe: phony 03_GraphStructure/05_ShortPath.exe
 
+build 06_TopologicalSort: phony 03_GraphStructure/06_TopologicalSort.exe
+
+build 06_TopologicalSort.exe: phony 03_GraphStructure/06_TopologicalSort.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -352,7 +395,7 @@ build all: phony 03_GraphStructure/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure
 
-build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe 03_GraphStructure/02_AdjacencyList.exe 03_GraphStructure/05_ShortPath.exe 03_GraphStructure/03_MinTree/all
+build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe 03_GraphStructure/02_AdjacencyList.exe 03_GraphStructure/05_ShortPath.exe 03_GraphStructure/06_TopologicalSort.exe 03_GraphStructure/03_MinTree/all
 
 # =============================================================================
 

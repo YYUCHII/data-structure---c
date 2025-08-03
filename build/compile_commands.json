@@ -37,6 +37,18 @@
 },
 {
   "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 03_GraphStructure\\CMakeFiles\\06_TopologicalSort.dir\\05_TopologicalSort\\TopologicalSort_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\05_TopologicalSort\\TopologicalSort_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\05_TopologicalSort\\TopologicalSort_main.c",
+  "output": "03_GraphStructure\\CMakeFiles\\06_TopologicalSort.dir\\05_TopologicalSort\\TopologicalSort_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 03_GraphStructure\\CMakeFiles\\06_TopologicalSort.dir\\05_TopologicalSort\\TopologicalSort.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\05_TopologicalSort\\TopologicalSort.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\05_TopologicalSort\\TopologicalSort.c",
+  "output": "03_GraphStructure\\CMakeFiles\\06_TopologicalSort.dir\\05_TopologicalSort\\TopologicalSort.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 03_GraphStructure\\03_MinTree\\CMakeFiles\\03_Kruskal_MinTree.dir\\01_Kruskal\\Kruskal_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\03_MinTree\\01_Kruskal\\Kruskal_main.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\03_GraphStructure\\03_MinTree\\01_Kruskal\\Kruskal_main.c",
   "output": "03_GraphStructure\\03_MinTree\\CMakeFiles\\03_Kruskal_MinTree.dir\\01_Kruskal\\Kruskal_main.c.obj"
