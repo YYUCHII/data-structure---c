@@ -224,6 +224,45 @@ build 03_GraphStructure/06_TopologicalSort.exe: C_EXECUTABLE_LINKER__06_Topologi
   TARGET_IMPLIB = 03_GraphStructure\lib06_TopologicalSort.dll.a
   TARGET_PDB = 06_TopologicalSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 07_KeyPath
+
+
+#############################################
+# Order-only phony target for 07_KeyPath
+
+build cmake_object_order_depends_target_07_KeyPath: phony || .
+
+build 03_GraphStructure/CMakeFiles/07_KeyPath.dir/06_KeyPath/KeyPath_main.c.obj: C_COMPILER__07_KeyPath_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/06_KeyPath/KeyPath_main.c || cmake_object_order_depends_target_07_KeyPath
+  DEP_FILE = 03_GraphStructure\CMakeFiles\07_KeyPath.dir\06_KeyPath\KeyPath_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir\06_KeyPath
+
+build 03_GraphStructure/CMakeFiles/07_KeyPath.dir/06_KeyPath/KeyPath.c.obj: C_COMPILER__07_KeyPath_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/06_KeyPath/KeyPath.c || cmake_object_order_depends_target_07_KeyPath
+  DEP_FILE = 03_GraphStructure\CMakeFiles\07_KeyPath.dir\06_KeyPath\KeyPath.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir
+  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir\06_KeyPath
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 07_KeyPath
+
+
+#############################################
+# Link the executable 03_GraphStructure\07_KeyPath.exe
+
+build 03_GraphStructure/07_KeyPath.exe: C_EXECUTABLE_LINKER__07_KeyPath_Debug 03_GraphStructure/CMakeFiles/07_KeyPath.dir/06_KeyPath/KeyPath_main.c.obj 03_GraphStructure/CMakeFiles/07_KeyPath.dir/06_KeyPath/KeyPath.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 03_GraphStructure\07_KeyPath.exe
+  TARGET_IMPLIB = 03_GraphStructure\lib07_KeyPath.dll.a
+  TARGET_PDB = 07_KeyPath.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -380,6 +419,10 @@ build 06_TopologicalSort: phony 03_GraphStructure/06_TopologicalSort.exe
 
 build 06_TopologicalSort.exe: phony 03_GraphStructure/06_TopologicalSort.exe
 
+build 07_KeyPath: phony 03_GraphStructure/07_KeyPath.exe
+
+build 07_KeyPath.exe: phony 03_GraphStructure/07_KeyPath.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -395,7 +438,7 @@ build all: phony 03_GraphStructure/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure
 
-build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe 03_GraphStructure/02_AdjacencyList.exe 03_GraphStructure/05_ShortPath.exe 03_GraphStructure/06_TopologicalSort.exe 03_GraphStructure/03_MinTree/all
+build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe 03_GraphStructure/02_AdjacencyList.exe 03_GraphStructure/05_ShortPath.exe 03_GraphStructure/06_TopologicalSort.exe 03_GraphStructure/07_KeyPath.exe 03_GraphStructure/03_MinTree/all
 
 # =============================================================================
 

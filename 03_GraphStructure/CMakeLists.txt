@@ -7,3 +7,5 @@ add_subdirectory(03_MinTree)
 add_executable(05_ShortPath 04_ShortPath/Dijkstra_main.c 04_ShortPath/Dijkstra.c 04_ShortPath/Dijkstra.h)
 
 add_executable(06_TopologicalSort 05_TopologicalSort/TopologicalSort_main.c 05_TopologicalSort/TopologicalSort.c 05_TopologicalSort/TopologicalSort.h)
+
+add_executable(07_KeyPath 06_KeyPath/KeyPath_main.c 06_KeyPath/KeyPath.c 06_KeyPath/KeyPath.h)
