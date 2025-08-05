@@ -107,6 +107,45 @@ build 04_Sort/01_InsertSort.exe: C_EXECUTABLE_LINKER__01_InsertSort_Debug 04_Sor
   TARGET_IMPLIB = 04_Sort\lib01_InsertSort.dll.a
   TARGET_PDB = 01_InsertSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 02_QuickSort
+
+
+#############################################
+# Order-only phony target for 02_QuickSort
+
+build cmake_object_order_depends_target_02_QuickSort: phony || .
+
+build 04_Sort/CMakeFiles/02_QuickSort.dir/02_QuickSort/QuickSort_main.c.obj: C_COMPILER__02_QuickSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/04_Sort/02_QuickSort/QuickSort_main.c || cmake_object_order_depends_target_02_QuickSort
+  DEP_FILE = 04_Sort\CMakeFiles\02_QuickSort.dir\02_QuickSort\QuickSort_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 04_Sort\CMakeFiles\02_QuickSort.dir
+  OBJECT_FILE_DIR = 04_Sort\CMakeFiles\02_QuickSort.dir\02_QuickSort
+
+build 04_Sort/CMakeFiles/02_QuickSort.dir/02_QuickSort/QuickSort.c.obj: C_COMPILER__02_QuickSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/04_Sort/02_QuickSort/QuickSort.c || cmake_object_order_depends_target_02_QuickSort
+  DEP_FILE = 04_Sort\CMakeFiles\02_QuickSort.dir\02_QuickSort\QuickSort.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 04_Sort\CMakeFiles\02_QuickSort.dir
+  OBJECT_FILE_DIR = 04_Sort\CMakeFiles\02_QuickSort.dir\02_QuickSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 02_QuickSort
+
+
+#############################################
+# Link the executable 04_Sort\02_QuickSort.exe
+
+build 04_Sort/02_QuickSort.exe: C_EXECUTABLE_LINKER__02_QuickSort_Debug 04_Sort/CMakeFiles/02_QuickSort.dir/02_QuickSort/QuickSort_main.c.obj 04_Sort/CMakeFiles/02_QuickSort.dir/02_QuickSort/QuickSort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 04_Sort\CMakeFiles\02_QuickSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04_Sort\02_QuickSort.exe
+  TARGET_IMPLIB = 04_Sort\lib02_QuickSort.dll.a
+  TARGET_PDB = 02_QuickSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -137,6 +176,10 @@ build 01_InsertSort: phony 04_Sort/01_InsertSort.exe
 
 build 01_InsertSort.exe: phony 04_Sort/01_InsertSort.exe
 
+build 02_QuickSort: phony 04_Sort/02_QuickSort.exe
+
+build 02_QuickSort.exe: phony 04_Sort/02_QuickSort.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -152,7 +195,7 @@ build all: phony 04_Sort/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/04_Sort
 
-build 04_Sort/all: phony 04_Sort/01_InsertSort.exe
+build 04_Sort/all: phony 04_Sort/01_InsertSort.exe 04_Sort/02_QuickSort.exe
 
 # =============================================================================
 # Built-in targets

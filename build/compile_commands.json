@@ -10,5 +10,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 04_Sort\\CMakeFiles\\01_InsertSort.dir\\01_InsertSort\\InsertSort.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\01_InsertSort\\InsertSort.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\01_InsertSort\\InsertSort.c",
   "output": "04_Sort\\CMakeFiles\\01_InsertSort.dir\\01_InsertSort\\InsertSort.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 04_Sort\\CMakeFiles\\02_QuickSort.dir\\02_QuickSort\\QuickSort_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\02_QuickSort\\QuickSort_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\02_QuickSort\\QuickSort_main.c",
+  "output": "04_Sort\\CMakeFiles\\02_QuickSort.dir\\02_QuickSort\\QuickSort_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 04_Sort\\CMakeFiles\\02_QuickSort.dir\\02_QuickSort\\QuickSort.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\02_QuickSort\\QuickSort.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\02_QuickSort\\QuickSort.c",
+  "output": "04_Sort\\CMakeFiles\\02_QuickSort.dir\\02_QuickSort\\QuickSort.c.obj"
 }
 ]

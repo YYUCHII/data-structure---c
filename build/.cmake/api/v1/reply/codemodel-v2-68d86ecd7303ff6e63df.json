@@ -30,7 +30,8 @@
 					"source" : "04_Sort",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -46,7 +47,8 @@
 					"name" : "DSLearnC",
 					"targetIndexes" : 
 					[
-						0
+						0,
+						1
 					]
 				}
 			],
@@ -57,6 +59,13 @@
 					"id" : "01_InsertSort::@43b602cf76b8f6ba8580",
 					"jsonFile" : "target-01_InsertSort-Debug-b66dd29a7991e92e8f7e.json",
 					"name" : "01_InsertSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "02_QuickSort::@43b602cf76b8f6ba8580",
+					"jsonFile" : "target-02_QuickSort-Debug-08f647d3c6c9939328af.json",
+					"name" : "02_QuickSort",
 					"projectIndex" : 0
 				}
 			]
