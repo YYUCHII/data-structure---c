@@ -68,3 +68,6 @@
 80	162	7752988132557879	01_LinearStructure/02_LinkedList/SinglyLinkedList.exe	1967e4c260590b9a
 1	96	7752383284360052	01_LinearStructure/CMakeFiles/01_SequenceTable.dir/01_SequenceTable/SequenceTable.c.obj	e02df5bdf0df6b59
 16	88	7756805074831984	03_GraphStructure/CMakeFiles/02_AdjacencyList.dir/02_AdjacencyList/AdjacencyList_main.c.obj	a2eb96586aa389cf
+2	483	7760702201700233	04_Sort/CMakeFiles/01_InsertSort.dir/01_InsertSort/InsertSort_main.c.obj	8f35a8e27277f601
+5	484	7760702201730354	04_Sort/CMakeFiles/01_InsertSort.dir/01_InsertSort/InsertSort.c.obj	a3c40cbba63180a4
+485	876	7760702206527511	04_Sort/01_InsertSort.exe	e9f0f7a02b9f258d
