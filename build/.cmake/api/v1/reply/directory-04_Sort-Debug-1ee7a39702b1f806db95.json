@@ -8,7 +8,7 @@
 	"installers" : [],
 	"paths" : 
 	{
-		"build" : "03_GraphStructure/03_MinTree",
-		"source" : "03_GraphStructure/03_MinTree"
+		"build" : "04_Sort",
+		"source" : "04_Sort"
 	}
 }

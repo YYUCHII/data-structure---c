@@ -1,0 +1,1 @@
+add_executable(01_InsertSort 01_InsertSort/InsertSort_main.c 01_InsertSort/InsertSort.c 01_InsertSort/InsertSort.h)

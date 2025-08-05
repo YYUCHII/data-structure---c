@@ -69,359 +69,73 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 # =============================================================================
-# Object build statements for EXECUTABLE target 01_MatrixGraph
+# Object build statements for EXECUTABLE target 01_InsertSort
 
 
 #############################################
-# Order-only phony target for 01_MatrixGraph
+# Order-only phony target for 01_InsertSort
 
-build cmake_object_order_depends_target_01_MatrixGraph: phony || .
+build cmake_object_order_depends_target_01_InsertSort: phony || .
 
-build 03_GraphStructure/CMakeFiles/01_MatrixGraph.dir/01_MatrixGraph/MatrixGraph_main.c.obj: C_COMPILER__01_MatrixGraph_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/01_MatrixGraph/MatrixGraph_main.c || cmake_object_order_depends_target_01_MatrixGraph
-  DEP_FILE = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir\01_MatrixGraph\MatrixGraph_main.c.obj.d
+build 04_Sort/CMakeFiles/01_InsertSort.dir/01_InsertSort/InsertSort_main.c.obj: C_COMPILER__01_InsertSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/04_Sort/01_InsertSort/InsertSort_main.c || cmake_object_order_depends_target_01_InsertSort
+  DEP_FILE = 04_Sort\CMakeFiles\01_InsertSort.dir\01_InsertSort\InsertSort_main.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir\01_MatrixGraph
+  OBJECT_DIR = 04_Sort\CMakeFiles\01_InsertSort.dir
+  OBJECT_FILE_DIR = 04_Sort\CMakeFiles\01_InsertSort.dir\01_InsertSort
 
-build 03_GraphStructure/CMakeFiles/01_MatrixGraph.dir/01_MatrixGraph/MatrixGraph.c.obj: C_COMPILER__01_MatrixGraph_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/01_MatrixGraph/MatrixGraph.c || cmake_object_order_depends_target_01_MatrixGraph
-  DEP_FILE = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir\01_MatrixGraph\MatrixGraph.c.obj.d
+build 04_Sort/CMakeFiles/01_InsertSort.dir/01_InsertSort/InsertSort.c.obj: C_COMPILER__01_InsertSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/04_Sort/01_InsertSort/InsertSort.c || cmake_object_order_depends_target_01_InsertSort
+  DEP_FILE = 04_Sort\CMakeFiles\01_InsertSort.dir\01_InsertSort\InsertSort.c.obj.d
   FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir\01_MatrixGraph
+  OBJECT_DIR = 04_Sort\CMakeFiles\01_InsertSort.dir
+  OBJECT_FILE_DIR = 04_Sort\CMakeFiles\01_InsertSort.dir\01_InsertSort
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target 01_MatrixGraph
+# Link build statements for EXECUTABLE target 01_InsertSort
 
 
 #############################################
-# Link the executable 03_GraphStructure\01_MatrixGraph.exe
+# Link the executable 04_Sort\01_InsertSort.exe
 
-build 03_GraphStructure/01_MatrixGraph.exe: C_EXECUTABLE_LINKER__01_MatrixGraph_Debug 03_GraphStructure/CMakeFiles/01_MatrixGraph.dir/01_MatrixGraph/MatrixGraph_main.c.obj 03_GraphStructure/CMakeFiles/01_MatrixGraph.dir/01_MatrixGraph/MatrixGraph.c.obj
+build 04_Sort/01_InsertSort.exe: C_EXECUTABLE_LINKER__01_InsertSort_Debug 04_Sort/CMakeFiles/01_InsertSort.dir/01_InsertSort/InsertSort_main.c.obj 04_Sort/CMakeFiles/01_InsertSort.dir/01_InsertSort/InsertSort.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\01_MatrixGraph.dir
+  OBJECT_DIR = 04_Sort\CMakeFiles\01_InsertSort.dir
   POST_BUILD = cd .
   PRE_LINK = cd .
-  TARGET_FILE = 03_GraphStructure\01_MatrixGraph.exe
-  TARGET_IMPLIB = 03_GraphStructure\lib01_MatrixGraph.dll.a
-  TARGET_PDB = 01_MatrixGraph.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 02_AdjacencyList
-
-
-#############################################
-# Order-only phony target for 02_AdjacencyList
-
-build cmake_object_order_depends_target_02_AdjacencyList: phony || .
-
-build 03_GraphStructure/CMakeFiles/02_AdjacencyList.dir/02_AdjacencyList/AdjacencyList_main.c.obj: C_COMPILER__02_AdjacencyList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/02_AdjacencyList/AdjacencyList_main.c || cmake_object_order_depends_target_02_AdjacencyList
-  DEP_FILE = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir\02_AdjacencyList\AdjacencyList_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir\02_AdjacencyList
-
-build 03_GraphStructure/CMakeFiles/02_AdjacencyList.dir/02_AdjacencyList/AdjacencyList.c.obj: C_COMPILER__02_AdjacencyList_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/02_AdjacencyList/AdjacencyList.c || cmake_object_order_depends_target_02_AdjacencyList
-  DEP_FILE = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir\02_AdjacencyList\AdjacencyList.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir\02_AdjacencyList
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 02_AdjacencyList
-
-
-#############################################
-# Link the executable 03_GraphStructure\02_AdjacencyList.exe
-
-build 03_GraphStructure/02_AdjacencyList.exe: C_EXECUTABLE_LINKER__02_AdjacencyList_Debug 03_GraphStructure/CMakeFiles/02_AdjacencyList.dir/02_AdjacencyList/AdjacencyList_main.c.obj 03_GraphStructure/CMakeFiles/02_AdjacencyList.dir/02_AdjacencyList/AdjacencyList.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\02_AdjacencyList.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 03_GraphStructure\02_AdjacencyList.exe
-  TARGET_IMPLIB = 03_GraphStructure\lib02_AdjacencyList.dll.a
-  TARGET_PDB = 02_AdjacencyList.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 05_ShortPath
-
-
-#############################################
-# Order-only phony target for 05_ShortPath
-
-build cmake_object_order_depends_target_05_ShortPath: phony || .
-
-build 03_GraphStructure/CMakeFiles/05_ShortPath.dir/04_ShortPath/Dijkstra_main.c.obj: C_COMPILER__05_ShortPath_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/04_ShortPath/Dijkstra_main.c || cmake_object_order_depends_target_05_ShortPath
-  DEP_FILE = 03_GraphStructure\CMakeFiles\05_ShortPath.dir\04_ShortPath\Dijkstra_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir\04_ShortPath
-
-build 03_GraphStructure/CMakeFiles/05_ShortPath.dir/04_ShortPath/Dijkstra.c.obj: C_COMPILER__05_ShortPath_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/04_ShortPath/Dijkstra.c || cmake_object_order_depends_target_05_ShortPath
-  DEP_FILE = 03_GraphStructure\CMakeFiles\05_ShortPath.dir\04_ShortPath\Dijkstra.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir\04_ShortPath
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 05_ShortPath
-
-
-#############################################
-# Link the executable 03_GraphStructure\05_ShortPath.exe
-
-build 03_GraphStructure/05_ShortPath.exe: C_EXECUTABLE_LINKER__05_ShortPath_Debug 03_GraphStructure/CMakeFiles/05_ShortPath.dir/04_ShortPath/Dijkstra_main.c.obj 03_GraphStructure/CMakeFiles/05_ShortPath.dir/04_ShortPath/Dijkstra.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\05_ShortPath.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 03_GraphStructure\05_ShortPath.exe
-  TARGET_IMPLIB = 03_GraphStructure\lib05_ShortPath.dll.a
-  TARGET_PDB = 05_ShortPath.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 06_TopologicalSort
-
-
-#############################################
-# Order-only phony target for 06_TopologicalSort
-
-build cmake_object_order_depends_target_06_TopologicalSort: phony || .
-
-build 03_GraphStructure/CMakeFiles/06_TopologicalSort.dir/05_TopologicalSort/TopologicalSort_main.c.obj: C_COMPILER__06_TopologicalSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/05_TopologicalSort/TopologicalSort_main.c || cmake_object_order_depends_target_06_TopologicalSort
-  DEP_FILE = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir\05_TopologicalSort\TopologicalSort_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir\05_TopologicalSort
-
-build 03_GraphStructure/CMakeFiles/06_TopologicalSort.dir/05_TopologicalSort/TopologicalSort.c.obj: C_COMPILER__06_TopologicalSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/05_TopologicalSort/TopologicalSort.c || cmake_object_order_depends_target_06_TopologicalSort
-  DEP_FILE = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir\05_TopologicalSort\TopologicalSort.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir\05_TopologicalSort
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 06_TopologicalSort
-
-
-#############################################
-# Link the executable 03_GraphStructure\06_TopologicalSort.exe
-
-build 03_GraphStructure/06_TopologicalSort.exe: C_EXECUTABLE_LINKER__06_TopologicalSort_Debug 03_GraphStructure/CMakeFiles/06_TopologicalSort.dir/05_TopologicalSort/TopologicalSort_main.c.obj 03_GraphStructure/CMakeFiles/06_TopologicalSort.dir/05_TopologicalSort/TopologicalSort.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\06_TopologicalSort.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 03_GraphStructure\06_TopologicalSort.exe
-  TARGET_IMPLIB = 03_GraphStructure\lib06_TopologicalSort.dll.a
-  TARGET_PDB = 06_TopologicalSort.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 07_KeyPath
-
-
-#############################################
-# Order-only phony target for 07_KeyPath
-
-build cmake_object_order_depends_target_07_KeyPath: phony || .
-
-build 03_GraphStructure/CMakeFiles/07_KeyPath.dir/06_KeyPath/KeyPath_main.c.obj: C_COMPILER__07_KeyPath_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/06_KeyPath/KeyPath_main.c || cmake_object_order_depends_target_07_KeyPath
-  DEP_FILE = 03_GraphStructure\CMakeFiles\07_KeyPath.dir\06_KeyPath\KeyPath_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir\06_KeyPath
-
-build 03_GraphStructure/CMakeFiles/07_KeyPath.dir/06_KeyPath/KeyPath.c.obj: C_COMPILER__07_KeyPath_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/06_KeyPath/KeyPath.c || cmake_object_order_depends_target_07_KeyPath
-  DEP_FILE = 03_GraphStructure\CMakeFiles\07_KeyPath.dir\06_KeyPath\KeyPath.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir\06_KeyPath
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 07_KeyPath
-
-
-#############################################
-# Link the executable 03_GraphStructure\07_KeyPath.exe
-
-build 03_GraphStructure/07_KeyPath.exe: C_EXECUTABLE_LINKER__07_KeyPath_Debug 03_GraphStructure/CMakeFiles/07_KeyPath.dir/06_KeyPath/KeyPath_main.c.obj 03_GraphStructure/CMakeFiles/07_KeyPath.dir/06_KeyPath/KeyPath.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 03_GraphStructure\CMakeFiles\07_KeyPath.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 03_GraphStructure\07_KeyPath.exe
-  TARGET_IMPLIB = 03_GraphStructure\lib07_KeyPath.dll.a
-  TARGET_PDB = 07_KeyPath.exe.dbg
+  TARGET_FILE = 04_Sort\01_InsertSort.exe
+  TARGET_IMPLIB = 04_Sort\lib01_InsertSort.dll.a
+  TARGET_PDB = 01_InsertSort.exe.dbg
 
 
 #############################################
 # Utility command for edit_cache
 
-build 03_GraphStructure/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\03_GraphStructure" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
+build 04_Sort/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\04_Sort" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
   DESC = No interactive CMake dialog available...
   restat = 1
 
-build 03_GraphStructure/edit_cache: phony 03_GraphStructure/CMakeFiles/edit_cache.util
+build 04_Sort/edit_cache: phony 04_Sort/CMakeFiles/edit_cache.util
 
 
 #############################################
 # Utility command for rebuild_cache
 
-build 03_GraphStructure/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\03_GraphStructure" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
+build 04_Sort/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\04_Sort" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
 
-build 03_GraphStructure/rebuild_cache: phony 03_GraphStructure/CMakeFiles/rebuild_cache.util
-
-# =============================================================================
-# Write statements declared in CMakeLists.txt:
-# C:/Users/25804/Desktop/data structure/data-structure---c/03_GraphStructure/CMakeLists.txt
-# =============================================================================
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 03_Kruskal_MinTree
-
-
-#############################################
-# Order-only phony target for 03_Kruskal_MinTree
-
-build cmake_object_order_depends_target_03_Kruskal_MinTree: phony || .
-
-build 03_GraphStructure/03_MinTree/CMakeFiles/03_Kruskal_MinTree.dir/01_Kruskal/Kruskal_main.c.obj: C_COMPILER__03_Kruskal_MinTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/03_MinTree/01_Kruskal/Kruskal_main.c || cmake_object_order_depends_target_03_Kruskal_MinTree
-  DEP_FILE = 03_GraphStructure\03_MinTree\CMakeFiles\03_Kruskal_MinTree.dir\01_Kruskal\Kruskal_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\03_Kruskal_MinTree.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\03_Kruskal_MinTree.dir\01_Kruskal
-
-build 03_GraphStructure/03_MinTree/CMakeFiles/03_Kruskal_MinTree.dir/01_Kruskal/Kruskal.c.obj: C_COMPILER__03_Kruskal_MinTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/03_MinTree/01_Kruskal/Kruskal.c || cmake_object_order_depends_target_03_Kruskal_MinTree
-  DEP_FILE = 03_GraphStructure\03_MinTree\CMakeFiles\03_Kruskal_MinTree.dir\01_Kruskal\Kruskal.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\03_Kruskal_MinTree.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\03_Kruskal_MinTree.dir\01_Kruskal
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 03_Kruskal_MinTree
-
-
-#############################################
-# Link the executable 03_GraphStructure\03_MinTree\03_Kruskal_MinTree.exe
-
-build 03_GraphStructure/03_MinTree/03_Kruskal_MinTree.exe: C_EXECUTABLE_LINKER__03_Kruskal_MinTree_Debug 03_GraphStructure/03_MinTree/CMakeFiles/03_Kruskal_MinTree.dir/01_Kruskal/Kruskal_main.c.obj 03_GraphStructure/03_MinTree/CMakeFiles/03_Kruskal_MinTree.dir/01_Kruskal/Kruskal.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\03_Kruskal_MinTree.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 03_GraphStructure\03_MinTree\03_Kruskal_MinTree.exe
-  TARGET_IMPLIB = 03_GraphStructure\03_MinTree\lib03_Kruskal_MinTree.dll.a
-  TARGET_PDB = 03_Kruskal_MinTree.exe.dbg
-
-# =============================================================================
-# Object build statements for EXECUTABLE target 04_Prim_MinTree
-
-
-#############################################
-# Order-only phony target for 04_Prim_MinTree
-
-build cmake_object_order_depends_target_04_Prim_MinTree: phony || .
-
-build 03_GraphStructure/03_MinTree/CMakeFiles/04_Prim_MinTree.dir/02_Prim/Prim_main.c.obj: C_COMPILER__04_Prim_MinTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/03_MinTree/02_Prim/Prim_main.c || cmake_object_order_depends_target_04_Prim_MinTree
-  DEP_FILE = 03_GraphStructure\03_MinTree\CMakeFiles\04_Prim_MinTree.dir\02_Prim\Prim_main.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\04_Prim_MinTree.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\04_Prim_MinTree.dir\02_Prim
-
-build 03_GraphStructure/03_MinTree/CMakeFiles/04_Prim_MinTree.dir/02_Prim/Prim.c.obj: C_COMPILER__04_Prim_MinTree_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/03_MinTree/02_Prim/Prim.c || cmake_object_order_depends_target_04_Prim_MinTree
-  DEP_FILE = 03_GraphStructure\03_MinTree\CMakeFiles\04_Prim_MinTree.dir\02_Prim\Prim.c.obj.d
-  FLAGS = -g
-  OBJECT_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\04_Prim_MinTree.dir
-  OBJECT_FILE_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\04_Prim_MinTree.dir\02_Prim
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target 04_Prim_MinTree
-
-
-#############################################
-# Link the executable 03_GraphStructure\03_MinTree\04_Prim_MinTree.exe
-
-build 03_GraphStructure/03_MinTree/04_Prim_MinTree.exe: C_EXECUTABLE_LINKER__04_Prim_MinTree_Debug 03_GraphStructure/03_MinTree/CMakeFiles/04_Prim_MinTree.dir/02_Prim/Prim_main.c.obj 03_GraphStructure/03_MinTree/CMakeFiles/04_Prim_MinTree.dir/02_Prim/Prim.c.obj
-  FLAGS = -g
-  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = 03_GraphStructure\03_MinTree\CMakeFiles\04_Prim_MinTree.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = 03_GraphStructure\03_MinTree\04_Prim_MinTree.exe
-  TARGET_IMPLIB = 03_GraphStructure\03_MinTree\lib04_Prim_MinTree.dll.a
-  TARGET_PDB = 04_Prim_MinTree.exe.dbg
-
-
-#############################################
-# Utility command for edit_cache
-
-build 03_GraphStructure/03_MinTree/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\03_GraphStructure\03_MinTree" && D:\mingw-gcc\mingw64\bin\cmake.exe -E echo "No interactive CMake dialog available.""
-  DESC = No interactive CMake dialog available...
-  restat = 1
-
-build 03_GraphStructure/03_MinTree/edit_cache: phony 03_GraphStructure/03_MinTree/CMakeFiles/edit_cache.util
-
-
-#############################################
-# Utility command for rebuild_cache
-
-build 03_GraphStructure/03_MinTree/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = C:\WINDOWS\system32\cmd.exe /C "cd /D "C:\Users\25804\Desktop\data structure\data-structure---c\build\03_GraphStructure\03_MinTree" && D:\mingw-gcc\mingw64\bin\cmake.exe --regenerate-during-build -S"C:\Users\25804\Desktop\data structure\data-structure---c" -B"C:\Users\25804\Desktop\data structure\data-structure---c\build""
-  DESC = Running CMake to regenerate build system...
-  pool = console
-  restat = 1
-
-build 03_GraphStructure/03_MinTree/rebuild_cache: phony 03_GraphStructure/03_MinTree/CMakeFiles/rebuild_cache.util
+build 04_Sort/rebuild_cache: phony 04_Sort/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Target aliases.
 
-build 01_MatrixGraph: phony 03_GraphStructure/01_MatrixGraph.exe
+build 01_InsertSort: phony 04_Sort/01_InsertSort.exe
 
-build 01_MatrixGraph.exe: phony 03_GraphStructure/01_MatrixGraph.exe
-
-build 02_AdjacencyList: phony 03_GraphStructure/02_AdjacencyList.exe
-
-build 02_AdjacencyList.exe: phony 03_GraphStructure/02_AdjacencyList.exe
-
-build 03_Kruskal_MinTree: phony 03_GraphStructure/03_MinTree/03_Kruskal_MinTree.exe
-
-build 03_Kruskal_MinTree.exe: phony 03_GraphStructure/03_MinTree/03_Kruskal_MinTree.exe
-
-build 04_Prim_MinTree: phony 03_GraphStructure/03_MinTree/04_Prim_MinTree.exe
-
-build 04_Prim_MinTree.exe: phony 03_GraphStructure/03_MinTree/04_Prim_MinTree.exe
-
-build 05_ShortPath: phony 03_GraphStructure/05_ShortPath.exe
-
-build 05_ShortPath.exe: phony 03_GraphStructure/05_ShortPath.exe
-
-build 06_TopologicalSort: phony 03_GraphStructure/06_TopologicalSort.exe
-
-build 06_TopologicalSort.exe: phony 03_GraphStructure/06_TopologicalSort.exe
-
-build 07_KeyPath: phony 03_GraphStructure/07_KeyPath.exe
-
-build 07_KeyPath.exe: phony 03_GraphStructure/07_KeyPath.exe
+build 01_InsertSort.exe: phony 04_Sort/01_InsertSort.exe
 
 # =============================================================================
 # Folder targets.
@@ -431,21 +145,14 @@ build 07_KeyPath.exe: phony 03_GraphStructure/07_KeyPath.exe
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build
 
-build all: phony 03_GraphStructure/all
+build all: phony 04_Sort/all
 
 # =============================================================================
 
 #############################################
-# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure
+# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/04_Sort
 
-build 03_GraphStructure/all: phony 03_GraphStructure/01_MatrixGraph.exe 03_GraphStructure/02_AdjacencyList.exe 03_GraphStructure/05_ShortPath.exe 03_GraphStructure/06_TopologicalSort.exe 03_GraphStructure/07_KeyPath.exe 03_GraphStructure/03_MinTree/all
-
-# =============================================================================
-
-#############################################
-# Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/03_GraphStructure/03_MinTree
-
-build 03_GraphStructure/03_MinTree/all: phony 03_GraphStructure/03_MinTree/03_Kruskal_MinTree.exe 03_GraphStructure/03_MinTree/04_Prim_MinTree.exe
+build 04_Sort/all: phony 04_Sort/01_InsertSort.exe
 
 # =============================================================================
 # Built-in targets
@@ -454,14 +161,14 @@ build 03_GraphStructure/03_MinTree/all: phony 03_GraphStructure/03_MinTree/03_Kr
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/03_MinTree/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
+build build.ninja: RERUN_CMAKE | C$:/Users/25804/Desktop/data$ structure/data-structure---c/04_Sort/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/03_MinTree/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/03_GraphStructure/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
+build C$:/Users/25804/Desktop/data$ structure/data-structure---c/04_Sort/CMakeLists.txt C$:/Users/25804/Desktop/data$ structure/data-structure---c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.29.2/CMakeCCompiler.cmake CMakeFiles/3.29.2/CMakeCXXCompiler.cmake CMakeFiles/3.29.2/CMakeRCCompiler.cmake CMakeFiles/3.29.2/CMakeSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCXXInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeGenericSystem.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeInitializeConfigs.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeLanguageInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeRCInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInformation.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeSystemSpecificInitialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/CMakeCommonCompilerMacros.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Compiler/GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-C.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX-ABI.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU-CXX.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-GNU.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-Initialize.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows-windres.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/Windows.cmake D$:/mingw-gcc/mingw64/share/cmake-3.29/Modules/Platform/WindowsPaths.cmake: phony
 
 
 #############################################
