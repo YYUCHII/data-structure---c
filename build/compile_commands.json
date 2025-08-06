@@ -34,5 +34,17 @@
   "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 04_Sort\\CMakeFiles\\03_HeapSort.dir\\03_HeapSort\\HeapSort.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\03_HeapSort\\HeapSort.c\"",
   "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\03_HeapSort\\HeapSort.c",
   "output": "04_Sort\\CMakeFiles\\03_HeapSort.dir\\03_HeapSort\\HeapSort.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 04_Sort\\CMakeFiles\\04_MergeSort.dir\\04_MergeSort\\MergeSort_main.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\04_MergeSort\\MergeSort_main.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\04_MergeSort\\MergeSort_main.c",
+  "output": "04_Sort\\CMakeFiles\\04_MergeSort.dir\\04_MergeSort\\MergeSort_main.c.obj"
+},
+{
+  "directory": "C:/Users/25804/Desktop/data structure/data-structure---c/build",
+  "command": "D:\\mingw-gcc\\mingw64\\bin\\gcc.exe -g -o 04_Sort\\CMakeFiles\\04_MergeSort.dir\\04_MergeSort\\MergeSort.c.obj -c \"C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\04_MergeSort\\MergeSort.c\"",
+  "file": "C:\\Users\\25804\\Desktop\\data structure\\data-structure---c\\04_Sort\\04_MergeSort\\MergeSort.c",
+  "output": "04_Sort\\CMakeFiles\\04_MergeSort.dir\\04_MergeSort\\MergeSort.c.obj"
 }
 ]
