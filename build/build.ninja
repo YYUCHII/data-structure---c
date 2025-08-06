@@ -146,6 +146,45 @@ build 04_Sort/02_QuickSort.exe: C_EXECUTABLE_LINKER__02_QuickSort_Debug 04_Sort/
   TARGET_IMPLIB = 04_Sort\lib02_QuickSort.dll.a
   TARGET_PDB = 02_QuickSort.exe.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target 03_HeapSort
+
+
+#############################################
+# Order-only phony target for 03_HeapSort
+
+build cmake_object_order_depends_target_03_HeapSort: phony || .
+
+build 04_Sort/CMakeFiles/03_HeapSort.dir/03_HeapSort/HeapSort_main.c.obj: C_COMPILER__03_HeapSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/04_Sort/03_HeapSort/HeapSort_main.c || cmake_object_order_depends_target_03_HeapSort
+  DEP_FILE = 04_Sort\CMakeFiles\03_HeapSort.dir\03_HeapSort\HeapSort_main.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 04_Sort\CMakeFiles\03_HeapSort.dir
+  OBJECT_FILE_DIR = 04_Sort\CMakeFiles\03_HeapSort.dir\03_HeapSort
+
+build 04_Sort/CMakeFiles/03_HeapSort.dir/03_HeapSort/HeapSort.c.obj: C_COMPILER__03_HeapSort_unscanned_Debug C$:/Users/25804/Desktop/data$ structure/data-structure---c/04_Sort/03_HeapSort/HeapSort.c || cmake_object_order_depends_target_03_HeapSort
+  DEP_FILE = 04_Sort\CMakeFiles\03_HeapSort.dir\03_HeapSort\HeapSort.c.obj.d
+  FLAGS = -g
+  OBJECT_DIR = 04_Sort\CMakeFiles\03_HeapSort.dir
+  OBJECT_FILE_DIR = 04_Sort\CMakeFiles\03_HeapSort.dir\03_HeapSort
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target 03_HeapSort
+
+
+#############################################
+# Link the executable 04_Sort\03_HeapSort.exe
+
+build 04_Sort/03_HeapSort.exe: C_EXECUTABLE_LINKER__03_HeapSort_Debug 04_Sort/CMakeFiles/03_HeapSort.dir/03_HeapSort/HeapSort_main.c.obj 04_Sort/CMakeFiles/03_HeapSort.dir/03_HeapSort/HeapSort.c.obj
+  FLAGS = -g
+  LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = 04_Sort\CMakeFiles\03_HeapSort.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = 04_Sort\03_HeapSort.exe
+  TARGET_IMPLIB = 04_Sort\lib03_HeapSort.dll.a
+  TARGET_PDB = 03_HeapSort.exe.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -180,6 +219,10 @@ build 02_QuickSort: phony 04_Sort/02_QuickSort.exe
 
 build 02_QuickSort.exe: phony 04_Sort/02_QuickSort.exe
 
+build 03_HeapSort: phony 04_Sort/03_HeapSort.exe
+
+build 03_HeapSort.exe: phony 04_Sort/03_HeapSort.exe
+
 # =============================================================================
 # Folder targets.
 
@@ -195,7 +238,7 @@ build all: phony 04_Sort/all
 #############################################
 # Folder: C:/Users/25804/Desktop/data structure/data-structure---c/build/04_Sort
 
-build 04_Sort/all: phony 04_Sort/01_InsertSort.exe 04_Sort/02_QuickSort.exe
+build 04_Sort/all: phony 04_Sort/01_InsertSort.exe 04_Sort/02_QuickSort.exe 04_Sort/03_HeapSort.exe
 
 # =============================================================================
 # Built-in targets

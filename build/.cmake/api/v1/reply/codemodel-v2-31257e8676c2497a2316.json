@@ -31,7 +31,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -48,7 +49,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -66,6 +68,13 @@
 					"id" : "02_QuickSort::@43b602cf76b8f6ba8580",
 					"jsonFile" : "target-02_QuickSort-Debug-08f647d3c6c9939328af.json",
 					"name" : "02_QuickSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "03_HeapSort::@43b602cf76b8f6ba8580",
+					"jsonFile" : "target-03_HeapSort-Debug-4c3a03e2b760e6875045.json",
+					"name" : "03_HeapSort",
 					"projectIndex" : 0
 				}
 			]
