@@ -5,6 +5,6 @@ project(DSLearnC C CXX)
 
 #add_subdirectory(02_TreeStructrue)
 
-#add_subdirectory(03_GraphStructure)
+add_subdirectory(03_GraphStructure)
 
-add_subdirectory(04_Sort)
+#add_subdirectory(04_Sort)

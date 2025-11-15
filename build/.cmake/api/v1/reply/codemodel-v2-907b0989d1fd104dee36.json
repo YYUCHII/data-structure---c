@@ -1,0 +1,174 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : "."
+				},
+				{
+					"build" : "03_GraphStructure",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-03_GraphStructure-Debug-c1bd8e0a295314bedec9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "03_GraphStructure",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						6,
+						7
+					]
+				},
+				{
+					"build" : "03_GraphStructure/03_MinTree",
+					"jsonFile" : "directory-03_GraphStructure.03_MinTree-Debug-a4bce95894faff678bb0.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "03_GraphStructure/03_MinTree",
+					"targetIndexes" : 
+					[
+						2,
+						3
+					]
+				},
+				{
+					"build" : "03_GraphStructure/04_ShortPath",
+					"jsonFile" : "directory-03_GraphStructure.04_ShortPath-Debug-4353159ec5af6d068aef.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 0,
+					"source" : "03_GraphStructure/04_ShortPath",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					],
+					"name" : "DSLearnC",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "01_MatrixGraph::@e2fd1490ef4c5926be62",
+					"jsonFile" : "target-01_MatrixGraph-Debug-49aad59907f8e8f3f0cd.json",
+					"name" : "01_MatrixGraph",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "02_AdjacencyList::@e2fd1490ef4c5926be62",
+					"jsonFile" : "target-02_AdjacencyList-Debug-a0623e85152489dc9e03.json",
+					"name" : "02_AdjacencyList",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "03_Kruskal_MinTree::@447fd9dbfad8f47ca95c",
+					"jsonFile" : "target-03_Kruskal_MinTree-Debug-cd3e362023b5d1e39c36.json",
+					"name" : "03_Kruskal_MinTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "04_Prim_MinTree::@447fd9dbfad8f47ca95c",
+					"jsonFile" : "target-04_Prim_MinTree-Debug-49d12459b4415f06e1a7.json",
+					"name" : "04_Prim_MinTree",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "05_Dijkstra_ShortPath::@e5851b6f04a83086b621",
+					"jsonFile" : "target-05_Dijkstra_ShortPath-Debug-d9aa9a22f03dc2727b50.json",
+					"name" : "05_Dijkstra_ShortPath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "06_Floyd_ShortPath::@e5851b6f04a83086b621",
+					"jsonFile" : "target-06_Floyd_ShortPath-Debug-fb9cca841125d633fe6a.json",
+					"name" : "06_Floyd_ShortPath",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "06_TopologicalSort::@e2fd1490ef4c5926be62",
+					"jsonFile" : "target-06_TopologicalSort-Debug-c8d692866a1d41f3f902.json",
+					"name" : "06_TopologicalSort",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "07_KeyPath::@e2fd1490ef4c5926be62",
+					"jsonFile" : "target-07_KeyPath-Debug-89884fb7532fb1860642.json",
+					"name" : "07_KeyPath",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/25804/Desktop/datastructure/data-structure---c/build",
+		"source" : "C:/Users/25804/Desktop/datastructure/data-structure---c"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/25804/Desktop/datastructure/data-structure---c/03_GraphStructure
+# Install script for directory: C:/Users/25804/Desktop/datastructure/data-structure---c/03_GraphStructure/04_ShortPath
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -35,12 +35,5 @@ endif()
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "D:/mingw-gcc/mingw64/bin/objdump.exe")
-endif()
-
-if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  # Include the install script for each subdirectory.
-  include("C:/Users/25804/Desktop/datastructure/data-structure---c/build/03_GraphStructure/03_MinTree/cmake_install.cmake")
-  include("C:/Users/25804/Desktop/datastructure/data-structure---c/build/03_GraphStructure/04_ShortPath/cmake_install.cmake")
-
 endif()
 

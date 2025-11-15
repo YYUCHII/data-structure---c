@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/25804/Desktop/data structure/data-structure---c
+# Install script for directory: C:/Users/25804/Desktop/datastructure/data-structure---c
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,7 +39,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/25804/Desktop/data structure/data-structure---c/build/04_Sort/cmake_install.cmake")
+  include("C:/Users/25804/Desktop/datastructure/data-structure---c/build/03_GraphStructure/cmake_install.cmake")
 
 endif()
 
@@ -51,5 +51,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/25804/Desktop/data structure/data-structure---c/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/25804/Desktop/datastructure/data-structure---c/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

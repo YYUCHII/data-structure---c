@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/25804/Desktop/data structure/data-structure---c/build"
+			"value" : "c:/Users/25804/Desktop/datastructure/data-structure---c/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -559,7 +559,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/25804/Desktop/data structure/data-structure---c/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/25804/Desktop/datastructure/data-structure---c/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -631,7 +631,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/25804/Desktop/data structure/data-structure---c"
+			"value" : "C:/Users/25804/Desktop/datastructure/data-structure---c"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -783,7 +783,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "2"
+			"value" : "4"
 		},
 		{
 			"name" : "CMAKE_OBJCOPY",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/25804/Desktop/data structure/data-structure---c/build"
+			"value" : "C:/Users/25804/Desktop/datastructure/data-structure---c/build"
 		},
 		{
 			"name" : "DSLearnC_IS_TOP_LEVEL",
@@ -1291,7 +1291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/25804/Desktop/data structure/data-structure---c"
+			"value" : "C:/Users/25804/Desktop/datastructure/data-structure---c"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

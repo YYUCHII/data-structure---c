@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/25804/Desktop/data structure/data-structure---c/03_GraphStructure/03_MinTree
+# Install script for directory: C:/Users/25804/Desktop/datastructure/data-structure---c/03_GraphStructure/03_MinTree
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

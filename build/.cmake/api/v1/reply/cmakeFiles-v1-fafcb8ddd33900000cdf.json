@@ -151,14 +151,20 @@
 			"path" : "D:/mingw-gcc/mingw64/share/cmake-3.29/Modules/CMakeCommonLanguageInclude.cmake"
 		},
 		{
-			"path" : "04_Sort/CMakeLists.txt"
+			"path" : "03_GraphStructure/CMakeLists.txt"
+		},
+		{
+			"path" : "03_GraphStructure/03_MinTree/CMakeLists.txt"
+		},
+		{
+			"path" : "03_GraphStructure/04_ShortPath/CMakeLists.txt"
 		}
 	],
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "C:/Users/25804/Desktop/data structure/data-structure---c/build",
-		"source" : "C:/Users/25804/Desktop/data structure/data-structure---c"
+		"build" : "C:/Users/25804/Desktop/datastructure/data-structure---c/build",
+		"source" : "C:/Users/25804/Desktop/datastructure/data-structure---c"
 	},
 	"version" : 
 	{
